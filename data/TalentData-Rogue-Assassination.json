@@ -1,0 +1,533 @@
+{
+	"BackgroundImage":"assassination/background.jpg",
+    "TreeIcon":"Hero15.png",
+    "ClassName":"Rogue",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ImprovedEviscerate",
+				"Name":"Improved Eviscerate",
+				"ImageOff":"assassination/improvedeviscerate-off.jpg",
+				"ImageOn":"assassination/improvedeviscerate.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Eviscerate ability by [@value]%.",
+				"PointValues":[7, 14, 20]
+			},
+			{
+				"Id":"RemorselessAttacks",
+				"Name":"Remorseless Attacks",
+				"ImageOff":"assassination/remorselessattacks-off.jpg",
+				"ImageOn":"assassination/remorselessattacks.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"After killing an opponent that yields experience or honor, gives you a [@value]% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Hemorrhage, Ambush, or Ghostly Strike. Lasts [@value2] sec.",
+				"PointValues":[20, 40],
+				"PointValues2":[20, 20]
+			},
+			{
+				"Id":"Malice",
+				"Name":"Malice",
+				"ImageOff":"assassination/malice-off.jpg",
+				"ImageOn":"assassination/malice.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your meele and ranged critical strike chance by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Ruthlessness",
+				"Name":"Ruthlessness",
+				"ImageOff":"assassination/ruthlessness-off.jpg",
+				"ImageOn":"assassination/ruthlessness.jpg",
+				"Tier":  2 ,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Rogue melee finishing moves a [@value]% chance to add a combo point to your target.",
+				"PointValues":[20, 40, 60]
+			},
+			{
+				"Id":"BloodSpatter",
+				"Name":"Blood Spatter",
+				"ImageOff":"assassination/bloodspatter-off.jpg",
+				"ImageOn":"assassination/bloodspatter.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage caused by your Garrote and Rupture abilities by [@value]%.",
+				"PointValues":[15, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"PuncturingWounds",
+				"Name":"Puncturing Wounds",
+				"ImageOff":"assassination/puncturingwounds-off.jpg",
+				"ImageOn":"assassination/puncturingwounds.jpg",
+				"Tier":  2,
+				"DisplayColumn": 4,
+				"Description":"Increases the critical strike chance of your Backstab ability by [@value]%, and the critical strike chance of your Mutilate ability by [@value2]%.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[5, 10, 15]
+			}
+        ],
+        [
+			{
+				"Id":"Vigor",
+				"Name":"Vigor",
+				"ImageOff":"assassination/vigor-off.jpg",
+				"ImageOn":"assassination/vigor.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your maximum Energy by 10.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedExposeArmor",
+				"Name":"Improved Expose Armor",
+				"ImageOff":"assassination/improvedexposearmor-off.jpg",
+				"ImageOn":"assassination/improvedexposearmor.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the energy cost of your Expose Armor ability by [@value].",
+				"PointValues":[5, 10]
+			},
+			{
+				"Id":"Lethality",
+				"Name":"Lethality",
+				"ImageOff":"assassination/lethality-off.jpg",
+				"ImageOn":"assassination/lethality.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of all combo point-generating Rogue abilities that do not require stealth by [@value]%.",
+				"PointValues":[6, 12, 18, 24, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"VilePoisons",
+				"Name":"Vile Poisons",
+				"ImageOff":"assassination/vilepoisons-off.jpg",
+				"ImageOn":"assassination/vilepoisons.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage dealt by your poisons and Envenom ability by [@value]% and gives your poisons an additional [@value2]% chance to resist dispel effects.",
+				"PointValues":[7, 14, 20],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"ImprovedPoisons",
+				"Name":"Improved Poisons",
+				"ImageOff":"assassination/improvedpoisons-off.jpg",
+				"ImageOn":"assassination/improvedpoisons.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the chance to apply Deadly Poison to your target by [@value]% and the frequency of applying Instant Poison to your target by [@value2]%.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[10, 20, 30, 40, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FleetFooted",
+				"Name":"Fleet Footed",
+				"ImageOff":"assassination/fleetfooted-off.jpg",
+				"ImageOn":"assassination/fleetfooted.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of all movement impairing effects by [@value]% and increases your movement speed by [@value2]%. This does not stack with other movement speed increasing effects.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[5, 10, 15]
+			},
+			{
+				"Id":"ColdBlood",
+				"Name":"Cold Blood",
+				"ImageOff":"assassination/coldblood-off.jpg",
+				"ImageOn":"assassination/coldblood.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>3 min cooldown</div><br/>When activated, increases the critical strike chance of your next offensive ability by 100%.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedKidneyShot",
+				"Name":"Improved Kidney Shot",
+				"ImageOff":"assassination/improvedkidneyshot-off.jpg",
+				"ImageOn":"assassination/improvedkidneyshot.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While affected by your Kidney Shot ability, the target receives an additional [@value]% damage from all sources.",
+				"PointValues":[3, 6, 9]
+			},
+			{
+				"Id":"QuickRecovery",
+				"Name":"Quick Recovery",
+				"ImageOff":"assassination/quickrecovery-off.jpg",
+				"ImageOn":"assassination/quickrecovery.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All healing effects on you are increased by [@value]%. This effect does not stack with other similar effects. In addition, your finishing moves cost [@value2]% less Energy when they fail to hit.",
+				"PointValues":[5, 10],
+				"PointValues2":[40, 80]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SealFate",
+				"Name":"Seal Fate",
+				"ImageOff":"assassination/sealfate-off.jpg",
+				"ImageOn":"assassination/sealfate.jpg",
+				"Tier":  6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your critical strikes from Rogue abilities that add combo points have a [@value]% chance to add an additional combo point.",
+				"PointValues":[20, 40, 60, 80, 100]
+			},
+			{
+				"Id":"Murder",
+				"Name":"Murder",
+				"ImageOff":"assassination/murder-off.jpg",
+				"ImageOn":"assassination/murder.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all physical and nature damage caused by [@value]%",
+				"PointValues":[1, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"DeadlyBrew",
+				"Name":"Deadly Brew",
+				"ImageOff":"assassination/deadlybrew-off.jpg",
+				"ImageOn":"assassination/deadlybrew.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When you apply Instant, Wound or Mind-Numbing poison to a target, you have a [@value]% chance to apply Crippling poison.",
+				"PointValues":[50, 100]
+			},
+			{
+				"Id":"Overkill",
+				"Name":"Overkill",
+				"ImageOff":"assassination/overkill-off.jpg",
+				"ImageOn":"assassination/overkill.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+				"Description":"While stealthed and for 20 seconds after breaking stealth, you regenerate 30% additional energy.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"DeadenedNerves",
+				"Name":"Deadened Nerves",
+				"ImageOff":"assassination/deadenednerves-off.jpg",
+				"ImageOn":"assassination/deadenednerves.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces all damage taken by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FocusedAttacks",
+				"Name":"Focused Attacks",
+				"ImageOff":"assassination/focusedattacks-off.jpg",
+				"ImageOn":"assassination/focusedattacks.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your melee critical strikes have a [@value]% chance to give you [@value2] energy.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[2, 2, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"FindWeakness",
+				"Name":"Find Weakness",
+				"ImageOff":"assassination/findweakness-off.jpg",
+				"ImageOn":"assassination/findweakness.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Offensive ability damage increased by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"MasterPoisoner",
+				"Name":"Master Poisoner",
+				"ImageOff":"assassination/masterpoisoner-off.jpg",
+				"ImageOn":"assassination/masterpoisoner.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical chance of all attacks made against any target you have poisoned by [@value]% and reduces the duration of all Poison effects applied to you by [@value2]%. and gives Envenom a [@value3]% chance to not consume Deadly Poison.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[17, 34, 50],
+				"PointValues3":[33, 66, 100]
+			},
+			{
+				"Id":"Mutilate",
+				"Name":"Mutilate",
+				"ImageOff":"assassination/mutilate-off.jpg",
+				"ImageOn":"assassination/mutilate.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"60 Energy<div style='float:right'>Melee Range</div><br/>Instant<br>Requires Daggers<br>Instantly attacks with both weapons for 100% weapon damage plus an additional 44 with each weapon. Damage is increased by 30% against Poisoned targets. Awards 2 combo points.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"TurntheTables",
+				"Name":"Turn the Tables",
+				"ImageOff":"assassination/turnthetables-off.jpg",
+				"ImageOn":"assassination/turnthetables.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by [@value]% for [@value2] sec.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[8, 8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CuttotheChase",
+				"Name":"Cut to the Chase",
+				"ImageOff":"assassination/cuttothechase-off.jpg",
+				"ImageOn":"assassination/cuttothechase.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Eviscerate and Envenom abilities have a [@value]% chance to refresh your Slice and Dice duration to its [@value2] combo point maximum.",
+				"PointValues":[20, 40, 60, 80, 100],
+				"PointValues2":[5, 5, 5, 5, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"HungerForBlood",
+				"Name":"Hunger For Blood",
+				"ImageOff":"assassination/hungerforblood-off.jpg",
+				"ImageOn":"assassination/hungerforblood.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"15 Energy<div style='float:right'>30 yds</div><br/>Instant<br/>Enrages you, increasing all damage caused by 5%. Requires a bleed effect to be active on the target. Lasts 1 min.<br><br>This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

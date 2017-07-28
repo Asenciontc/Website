@@ -1,0 +1,546 @@
+{
+	"BackgroundImage":"marksmanship/background.jpg",
+    "TreeIcon":"Hero4.png",
+    "ClassName":"Hunter",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ImprovedConcussiveShot",
+				"Name":"Improved Concussive Shot",
+				"ImageOff":"marksmanship/improvedconcussiveshot-off.jpg",
+				"ImageOn":"marksmanship/improvedconcussiveshot.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the duration of your Concussive Shot's daze effect by [@value] sec.",
+				"PointValues":[1, 2]
+			},
+			{
+				"Id":"FocusedAim",
+				"Name":"Focused Aim",
+				"ImageOff":"marksmanship/focusedaim-off.jpg",
+				"ImageOn":"marksmanship/focusedaim.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the pushback suffered from damaging attacks while casting Steady Shot by [@value]%, and increases your chance to hit by [@value2]% and increases your chance to hit with ranged and meele attacks by [@value3]%.",
+				"PointValues":[23, 46, 70],
+				"PointValues2":[1, 2, 3],
+				"PointValues3":[1, 2, 3]
+			},
+			{
+				"Id":"LethalShots",
+				"Name":"Lethal Shots",
+				"ImageOff":"marksmanship/lethalshots-off.jpg",
+				"ImageOn":"marksmanship/lethalshots.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your critical strike chance with ranged weapons by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"CarefulAim",
+				"Name":"Careful Aim",
+				"ImageOff":"marksmanship/carefulaim-off.jpg",
+				"ImageOn":"marksmanship/carefulaim.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your ranged attack power by an amount equal to [@value]% of your total Intellect.",
+				"PointValues":[33, 66, 100]
+			},
+			{
+				"Id":"ImprovedHuntersMark",
+				"Name":"Improved Hunters Mark",
+				"ImageOff":"marksmanship/improvedhuntersmark-off.jpg",
+				"ImageOn":"marksmanship/improvedhuntersmark.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the bonus attack power granted by your Hunter's Mark ability by [@value]%, and reduces the mana cost of your Hunter's Mark ability by [@value2]%.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[33, 66, 100]
+			},
+			{
+				"Id":"MortalShots",
+				"Name":"Mortal Shots",
+				"ImageOff":"marksmanship/mortalshots-off.jpg",
+				"ImageOn":"marksmanship/mortalshots.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of your ranged abilities by [@value]%.",
+				"PointValues":[4, 8, 12, 16, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"GofortheThroat",
+				"Name":"Go for the Throat",
+				"ImageOff":"marksmanship/goforthethroat-off.jpg",
+				"ImageOn":"marksmanship/goforthethroat.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your ranged critical hits cause your pet to generate [@value] Focus.",
+				"PointValues":[25, 50]
+			},
+			{
+				"Id":"ImprovedArcaneShot",
+				"Name":"Improved Arcane Shot",
+				"ImageOff":"marksmanship/improvedarcaneshot-off.jpg",
+				"ImageOn":"marksmanship/improvedarcaneshot.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Arcane Shot by [@value]%.",
+				"PointValues":[5, 10, 15]
+			},
+			{
+				"Id":"AimedShot",
+				"Name":"Aimed Shot",
+				"ImageOff":"marksmanship/aimedshot-off.jpg",
+				"ImageOn":"marksmanship/aimedshot.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"6% of base mana<div style='float:right;'>5-35 yd range</div><br/>Instant Cast<div style='float:right;'>10 sec cooldown</div><br/>Requires Ranged Weapon<br/>An aimed shot that increases ranged damage by 408 and reduces healing done to that target by 50%. Lasts 10 sec.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"RapidKilling",
+				"Name":"Rapid Killing",
+				"ImageOff":"marksmanship/rapidkilling-off.jpg",
+				"ImageOn":"marksmanship/rapidkilling.jpg",
+				"Tier":  3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Rapid Fire ability by [@value3] min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Chimera Shot causes [@value]% additional damage.  Lasts [@value2] sec.",
+				"PointValues":[10, 20],
+				"PointValues2":[20, 20],
+				"PointValues3":[1, 2]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedStings",
+				"Name":"Improved Stings",
+				"ImageOff":"marksmanship/improvedstings-off.jpg",
+				"ImageOn":"marksmanship/improvedstings.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Serpent Sting and Wyvern Sting by [@value]% and the mana drained by your Viper Sting by [@value2]%. In addition, reduces the chance your Sting over time damage will be dispelled by [@value3]%.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[10, 20, 30],
+				"PointValues3":[10, 20, 30]
+			},
+			{
+				"Id":"Efficiency",
+				"Name":"Efficiency",
+				"ImageOff":"marksmanship/efficiency-off.jpg",
+				"ImageOn":"marksmanship/efficiency.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the Mana cost of your Shots and Stings by [@value]%.",
+				"PointValues":[3, 6, 9, 12, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ConcussiveBarrage",
+				"Name":"Concussive Barrage",
+				"ImageOff":"marksmanship/concussivebarrage-off.jpg",
+				"ImageOn":"marksmanship/concussivebarrage.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your successful Chimera Shot and Multi-Shot attacks have a [@value]% chance to Daze the target for [@value2] sec.",
+                		"PointValues":[50, 100],
+                		"PointValues2":[4, 4]
+			},
+			{
+				"Id":"Readiness",
+				"Name":"Readiness",
+				"ImageOff":"marksmanship/readiness-off.jpg",
+				"ImageOn":"marksmanship/readiness.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>3 min cooldown</div><br/>When activated, this ability immediately finishes the cooldown of your other Hunter abilities, except Bestial Wrath.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Barrage",
+				"Name":"Barrage",
+				"ImageOff":"marksmanship/barrage-off.jpg",
+				"ImageOn":"marksmanship/barrage.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Multi-Shot, Aimed Shot, and Volley spells by [@value]%.",
+				"PointValues":[4, 8, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"CombatExperience",
+				"Name":"Combat Experience",
+				"ImageOff":"marksmanship/combatexperience-off.jpg",
+				"ImageOn":"marksmanship/combatexperience.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Agility and Intellect by [@value]%.",
+				"PointValues":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"RangedWeaponSpecialization",
+				"Name":"Ranged Weapon Specialization",
+				"ImageOff":"marksmanship/rangedweaponspecialization-off.jpg",
+				"ImageOn":"marksmanship/rangedweaponspecialization.jpg",
+				"Tier":  6,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all damage you deal when a ranged weapons is equipped by [@value]%.",
+				"PointValues":[1, 2, 3]
+			}
+        ],
+        [
+			{
+				"Id":"PiercingShots",
+				"Name":"Piercing Shots",
+				"ImageOff":"marksmanship/piercingshots-off.jpg",
+				"ImageOn":"marksmanship/piercingshots.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your critical Aimed, Steady and Chimera Shots cause the target to bleed for [@value]% of the damage dealt over [@value2] sec.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[8, 8, 8]
+			},
+			{
+				"Id":"TrueshotAura",
+				"Name":"Trueshot Aura",
+				"ImageOff":"marksmanship/trueshotaura-off.jpg",
+				"ImageOn":"marksmanship/trueshotaura.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the attack power of party and raid members within 100 yards by 5%. Lasts until cancelled.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedBarrage",
+				"Name":"Improved Barrage",
+				"ImageOff":"marksmanship/improvedbarrage-off.jpg",
+				"ImageOn":"marksmanship/improvedbarrage.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by [@value2]% and reduces the pushback suffered from damaging attacks while channeling Volley by [@value]%.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[4, 8, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MasterMarksman",
+				"Name":"Master Marksman",
+				"ImageOff":"marksmanship/mastermarksman-off.jpg",
+				"ImageOn":"marksmanship/mastermarksman.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your critical strike chance with ranged and meele attacks by [@value]%, and reduces the Mana cost of your Steady Shot, Aimed Shot and Chimera Shot by [@value2]%.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[5, 10, 15, 20, 25]
+			},
+			{
+				"Id":"RapidRecuperation",
+				"Name":"Rapid Recuperation",
+				"ImageOff":"marksmanship/rapidrecuperation-off.jpg",
+				"ImageOn":"marksmanship/rapidrecuperation.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"You gain [@value]% of your mana every [@value2] sec while under the effect of Rapid Fire, and you gain [@value3]% of your mana every [@value4] sec for [@value5] sec when you gain Rapid Killing.",
+				"PointValues":[2, 4],
+				"PointValues2":[3, 3],
+				"PointValues3":[1, 2],
+				"PointValues4":[2, 2],
+				"PointValues5":[6, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"WildQuiver",
+				"Name":"Wild Quiver",
+				"ImageOff":"marksmanship/wildquiver-off.jpg",
+				"ImageOn":"marksmanship/wildquiver.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"You have a [@value]% chance to shoot an additional shot when doing damage with your auto shot, dealing [@value2]% weapon nature damage. Wild Quiver consumes no ammo.",
+				"PointValues":[4, 8, 12],
+				"PointValues2":[80, 80, 80]
+			},
+			{
+				"Id":"SilencingShot",
+				"Name":"Silencing Shot",
+				"ImageOff":"marksmanship/silencingshot-off.jpg",
+				"ImageOn":"marksmanship/silencingshot.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"5% of base mana<div style='float:right;'>35 yd range</div><br/>Instant Cast<div style='float:right;'>20 sec cooldown</div><br/>A shot that deals 50% weapon damage and Silences the target for 3 sec. Non-player victim spellcasting is also interrupted for 3 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedSteadyShot",
+				"Name":"Improved Steady Shot",
+				"ImageOff":"marksmanship/improvedsteadyshot-off.jpg",
+				"ImageOn":"marksmanship/improvedsteadyshot.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Steady Shot hits have a [@value]% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by [@value2]%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by [@value3]%.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[15, 15, 15],
+				"PointValues3":[20, 20, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MarkedforDeath",
+				"Name":"Marked for Death",
+				"ImageOff":"marksmanship/markedfordeath-off.jpg",
+				"ImageOn":"marksmanship/markedfordeath.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your shots and the damage done by your tamed pet's special abilities by [@value]% on market targets, and increases the critical strike damage bonus of your Aimed Shot, Steady Shot, Kill Shot or Chimera Shot by [@value2]%.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ChimeraShot",
+				"Name":"Chimera Shot",
+				"ImageOff":"marksmanship/chimerashot-off.jpg",
+				"ImageOn":"marksmanship/chimerashot.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10% of base mana<div style='float:right'>5-35 yd range</div><br/>Instant Cast<div style='float:right'>10 sec cooldown</div><br/>You deal [@value]% weapon damage, refreshing the current Sting on your target and triggering an effect:<br/><br/> Serpent Sting - Instantly deals [@value2]% of the damage done by your Serpent Sting.<br/><br/> Viper Sting - Instantly restores mana to you equal to [@value3]% of the total amount drained by your Viper Sting.<br/><br/> Scorpid Sting - Attempts to Disarm the target for [@value4] sec. This effect cannot occur more than once per 1 minute.",
+				"PointValues":[90],
+				"PointValues2":[40],
+				"PointValues3":[60],
+				"PointValues4":[10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

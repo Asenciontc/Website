@@ -1,0 +1,550 @@
+{
+	"BackgroundImage":"fire/background.jpg",
+    "TreeIcon":"Hero7.png",
+    "ClassName":"Mage",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ImprovedFireBlast",
+				"Name":"Improved Fire Blast",
+				"ImageOff":"fire/improvedfireblast-off.jpg",
+				"ImageOn":"fire/improvedfireblast.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Fire Blast spell by [@value] sec.",
+				"PointValues":[1, 2]
+			},
+			{
+				"Id":"Incineration",
+				"Name":"Incineration",
+				"ImageOff":"fire/incineration-off.jpg",
+				"ImageOn":"fire/incineration.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"ImprovedFireball",
+				"Name":"Improved Fireball",
+				"ImageOff":"fire/improvedfireball-off.jpg",
+				"ImageOn":"fire/improvedfireball.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the casting time of your Fireball spell by [@value] sec.",
+				"PointValues":[0.1, 0.2, 0.3, 0.4, 0.5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Ignite",
+				"Name":"Ignite",
+				"ImageOff":"fire/ignite-off.jpg",
+				"ImageOn":"fire/ignite.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your critical strikes from Fire damage spells cause the target to burn for an additional [@value]% of your spell's damage over [@value2] sec.",
+				"PointValues":[8, 16, 24, 32, 40],
+				"PointValues2":[4, 4, 4, 4, 4]
+			},
+			{
+				"Id":"BurningDetermination",
+				"Name":"Burning Determination",
+				"ImageOff":"fire/burningdetermination-off.jpg",
+				"ImageOn":"fire/burningdetermination.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When Interrupted or Silenced you have a [@value]% chance to become immune to the next interrupt or silence mechanics for [@value2] sec.",
+				"PointValues":[50, 100],
+				"PointValues2":[30, 30]
+			},
+			{
+				"Id":"WorldinFlames",
+				"Name":"World in Flames",
+				"ImageOff":"fire/worldinflames-off.jpg",
+				"ImageOn":"fire/worldinflames.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FlameThrowing",
+				"Name":"Flame Throwing",
+				"ImageOff":"fire/flamethrowing-off.jpg",
+				"ImageOn":"fire/flamethrowing.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Mage Fire spells except Frostfire Bolt by [@value] yards.",
+				"PointValues":[3, 6]
+			},
+			{
+				"Id":"Impact",
+				"Name":"Impact",
+				"ImageOff":"fire/impact-off.jpg",
+				"ImageOn":"fire/impact.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your damaging Mage spells a [@value]% chance to cause the next Fire Blast spell you cast to stun the target for [@value2] sec.",
+				"PointValues":[4, 7, 10],
+				"PointValues2":[2, 2, 2]
+			},
+			{
+				"Id":"Pyroblast",
+				"Name":"Pyroblast",
+				"ImageOff":"fire/pyroblast-off.jpg",
+				"ImageOn":"fire/pyroblast.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"18% of base mana<div style='float:right;'>35 yd range</div><br/>5 sec cast<br/>Hurls an immense fiery boulder that causes 148 to 195 Fire damage and an additional 56 Fire damage over 12 sec.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BurningSoul",
+				"Name":"Burning Soul",
+				"ImageOff":"fire/burningsoul-off.jpg",
+				"ImageOn":"fire/burningsoul.jpg",
+				"Tier":  3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the pushback suffered from damaging attacks while casting Mage Fire spells by [@value]% and reduces the threat caused by your Fire spells by [@value2]%.",
+				"PointValues":[35, 70],
+				"PointValues2":[5, 10]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedScorch",
+				"Name":"Improved Scorch",
+				"ImageOff":"fire/improvedscorch-off.jpg",
+				"ImageOn":"fire/improvedscorch.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to critically hit with scorch, Fireball and Frostfire Bolt by an additional [@value3]% and your damaging Scorch spells have a [@value]% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by [@value4]% and lasts [@value2] sec.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[30, 30, 30],
+				"PointValues3":[1, 2, 3],
+				"PointValues4":[5, 5, 5]
+			},
+			{
+				"Id":"MoltenShields",
+				"Name":"Molten Shields",
+				"ImageOff":"fire/moltenshields-off.jpg",
+				"ImageOn":"fire/moltenshields.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Causes your Fire Ward and Frost Ward spells to have a [@value]% chance to reflect the warded spell while active. In addition, your Molten Armor has a [@value2]% chance to affect ranged and spell attacks.",
+				"PointValues":[15, 30],
+				"PointValues2":[50, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MasterofElements",
+				"Name":"Master of Elements",
+				"ImageOff":"fire/masterofelements-off.jpg",
+				"ImageOn":"fire/masterofelements.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your spell criticals will refund [@value]% of their base mana cost.",
+				"PointValues":[10, 20, 30]
+			}
+        ],
+        [
+			{
+				"Id":"PlayingwithFire",
+				"Name":"Playing with Fire",
+				"ImageOff":"fire/playingwithfire-off.jpg",
+				"ImageOn":"fire/playingwithfire.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all spell damage caused by [@value]% and all spell damage taken by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[1, 2, 3]
+			},
+			{
+				"Id":"CriticalMass",
+				"Name":"Critical Mass",
+				"ImageOff":"fire/criticalmass-off.jpg",
+				"ImageOn":"fire/criticalmass.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your fire spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"BlastWave",
+				"Name":"Blast Wave",
+				"ImageOff":"fire/blastwave-off.jpg",
+				"ImageOn":"fire/blastwave.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"6% of base mana<br/>Instant Cast<div style='float:right;'>30 sec cooldown</div><br/>A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 154 to 186 Fire damage, knocking them back and Dazing them for 6 sec.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"BlazingSpeed",
+				"Name":"Blazing Speed",
+				"ImageOff":"fire/blazingspeed-off.jpg",
+				"ImageOn":"fire/blazingspeed.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance when hit by a melee or ranged attack to increase your movement speed by [@value2]% and dispel all movement impairing effects. This effect lasts [@value3] sec.",
+				"PointValues":[5, 10],
+				"PointValues2":[50, 50],
+				"PointValues3":[8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"FirePower",
+				"Name":"Fire Power",
+				"ImageOff":"fire/firepower-off.jpg",
+				"ImageOn":"fire/firepower.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your fire spells by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Pyromaniac",
+				"Name":"Pyromaniac",
+				"ImageOff":"fire/pyromaniac-off.jpg",
+				"ImageOn":"fire/pyromaniac.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases chance to critically hit by [@value]% and allows [@value2]% of your mana regeneration to continue while casting.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[8, 16, 24]
+			},
+			{
+				"Id":"Combustion",
+				"Name":"Combustion",
+				"ImageOff":"fire/combustion-off.jpg",
+				"ImageOn":"fire/combustion.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>2 min cooldown</div><br/>When activated, this spell increases your critical strike damage bonus with Mage Fire spells by 50%, and causes each of your Mage Fire damage spell hits to increase your critical strike chance with Mage Fire damage spells by 10%. This effect lasts until you have caused 3 non-periodic critical strikes with Fire spells.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MoltenFury",
+				"Name":"Molten Fury",
+				"ImageOff":"fire/moltenfury-off.jpg",
+				"ImageOn":"fire/moltenfury.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases damage of all Mage spells against targets with less than [@value]% health by [@value2]%.",
+				"PointValues":[35, 35],
+				"PointValues2":[6, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FieryPayback",
+				"Name":"Fiery Payback",
+				"ImageOff":"fire/fierypayback-off.jpg",
+				"ImageOn":"fire/fierypayback.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When below [@value]% health all damage taken is reduced by [@value2]% and your Pyroblast spell's cast time is reduced by [@value3] secs while the cooldown is increased by [@value4] secs. In addition, melee and ranged attacks made against you have a [@value5]% chance to disarm your attacker's main hand and ranged weapon.",
+				"PointValues":[35, 35],
+				"PointValues2":[3, 6],
+				"PointValues3":[1.75, 3.5],
+				"PointValues4":[5, 10],
+				"PointValues5":[5, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EmpoweredFire",
+				"Name":"Empowered Fire",
+				"ImageOff":"fire/empoweredfire-off.jpg",
+				"ImageOn":"fire/empoweredfire.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage of your Fireball, Frostfire Bolt and Pyrpblast spells by an amount equal to [@value]% of your spell power. In addition each time your Ignite talent causes damage you have a [@value2]% chance to regain [@value3]% of your base mana.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[33, 66, 100],
+				"PointValues3":[2, 2, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Firestarter",
+				"Name":"Firestarter",
+				"ImageOff":"fire/firestarter-off.jpg",
+				"ImageOn":"fire/firestarter.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your damaging Blast Wave and Dragon's Breath spells have a [@value]% chance to make your next Flamestrike spell instant cast and cost no mana. Lasts [@value2] sec. Increases the duration of your Dragon's Breath effect by [@value3] sec.",
+				"PointValues":[50, 100],
+				"PointValues2":[10, 10],
+				"PointValues3":[1, 2]
+			},
+			{
+				"Id":"DragonsBreath",
+				"Name":"Dragons Breath",
+				"ImageOff":"fire/dragonsbreath-off.jpg",
+				"ImageOn":"fire/dragonsbreath.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"15% of base mana<br/>Instant Cast<div style='float:right;'>20 sec cooldown</div><br/>Targets in a cone in front of the caster take 370 to 430 Fire damage and are Disoriented for 5 sec. Any direct damaging attack will revive targets. Turns off your attack when used.<br/><br/>Talent Has Trainable Ranks",
+                		"PointValues":[0.0]
+			},
+			{
+				"Id":"HotStreak",
+				"Name":"Hot Streak",
+				"ImageOff":"fire/hotstreak-off.jpg",
+				"ImageOn":"fire/hotstreak.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Any time you score [@value3] non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb or Frostfire Bolt, you have a [@value]% chance the next Pyroblast spell cast within [@value2] sec will be instant cast.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[10, 10, 10],
+				"PointValues3":[2, 2, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Burnout",
+				"Name":"Burnout",
+				"ImageOff":"fire/burnout-off.jpg",
+				"ImageOn":"fire/burnout.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your spell critical damage bonus with all Mage spells by [@value]% but your non periodic Mage spell criticals cost an additional [@value2]% of the spell's cost.",
+				"PointValues":[10, 20, 30, 40, 50],
+				"PointValues2":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"LivingBomb",
+				"Name":"Living Bomb",
+				"ImageOff":"fire/livingbomb-off.jpg",
+				"ImageOn":"fire/livingbomb.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"18% of base mana<div style='float:right;'>35 yd range</div><br/>Instant Cast<br/>The target becomes a Living Bomb, taking 1380 Fire Damage over 12 sec. After 12 sec or when the spell is dispelled, the target explodes dealing 306 Fire damage to all enemies within 10 yards.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

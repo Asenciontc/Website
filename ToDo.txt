@@ -1,0 +1,13 @@
+-Correct Errors in config
+-Ability statistics(Mana cost, range, etc.) (IsAbility in config)
+-Spritesheet
+-Highlighted values in talents
+-Implement a way to show correct tooltips on talents like Improved Revenge (Protection Warrior)
+-Fix site css
+-Fix tier rank in data files
+
+-Top bar AE/TE
+-Views
+
+Temp
+6% of base mana<div style='float:right;'>100 yd range</div><br/>Instant Cast<div style='float:right;'>1 min cooldown</div><br/>

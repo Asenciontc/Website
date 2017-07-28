@@ -1,0 +1,539 @@
+{
+	"BackgroundImage":"affliction/background.jpg",
+    "TreeIcon":"Hero21.png",
+    "ClassName":"Warlock",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ImprovedCurseofAgony",
+				"Name":"Improved Curse of Agony",
+				"ImageOff":"affliction/improvedcurseofagony-off.jpg",
+				"ImageOn":"affliction/improvedcurseofagony.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the damage done by your Curse of Agony by [@value]%.",
+				"PointValues":[5, 10]
+			},
+			{
+				"Id":"Suppression",
+				"Name":"Suppression",
+				"ImageOff":"affliction/suppression-off.jpg",
+				"ImageOn":"affliction/suppression.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases your chance to hit with spells by [@value]%, and reduces the mana cost of your Affliction spells by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[2, 4, 6]
+			},
+			{
+				"Id":"ImprovedCorruption",
+				"Name":"Improved Corruption",
+				"ImageOff":"affliction/improvedcorruption-off.jpg",
+				"ImageOn":"affliction/improvedcorruption.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the damage done by your Corruption by [@value]% and increases the critical strike chance of your Seed of Corruption by [@value2]%.",
+				"PointValues":[2, 4, 6, 8, 10],
+				"PointValues2":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Frailty",
+				"Name":"Frailty",
+				"ImageOff":"affliction/frailty-off.jpg",
+				"ImageOn":"affliction/frailty.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the amount of attack power reduced by your Curse of Weakness by [@value]%.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"ImprovedDrainSoul",
+				"Name":"Improved Drain Soul",
+				"ImageOff":"affliction/improveddrainsoul-off.jpg",
+				"ImageOn":"affliction/improveddrainsoul.jpg",
+				"Tier":  2 ,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Returns [@value]% of your maximum mana if the target is killed by you while you drain its soul. In addition, your Affliction spells generate [@value2]% less threat.",
+				"PointValues":[7, 15],
+				"PointValues2":[10, 20]
+			},
+			{
+				"Id":"ImprovedLifeTap",
+				"Name":"Improved Life Tap",
+				"ImageOff":"affliction/improvedlifetap-off.jpg",
+				"ImageOn":"affliction/improvedlifetap.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the amount of Mana awarded by your Life Tap spell by [@value]%.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"SoulSiphon",
+				"Name":"Soul Siphon",
+				"ImageOff":"affliction/soulsiphon-off.jpg",
+				"ImageOn":"affliction/soulsiphon.jpg",
+				"Tier":  2,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the amount drained by your Drain Life and Drain Soul spells by an additional [@value]% for each Affliction effect on the target, up to a maximum of [@value2]% additional effect.",
+				"PointValues":[3, 6],
+				"PointValues2":[9, 18]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedFear",
+				"Name":"Improved Fear",
+				"ImageOff":"affliction/improvedfear-off.jpg",
+				"ImageOn":"affliction/improvedfear.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Causes your Fear spell to inflict a Nightmare on the target when the fear effect ends. The Nightmare effect reduces the target's movement speed by [@value]% for 5 sec.",
+				"PointValues":[15, 30]
+			},
+			{
+				"Id":"FelConcentration",
+				"Name":"Fel Concentration",
+				"ImageOff":"affliction/felconcentration-off.jpg",
+				"ImageOn":"affliction/felconcentration.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Reduces the pushback suffered from damaging attacks, while casting Drain Life, Drain Mana, Drain Soul, Unstable Affliction and Haunt by [@value]%.",
+				"PointValues":[23, 46, 70]
+			},
+			{
+				"Id":"AmplifyCurse",
+				"Name":"Amplify Curse",
+				"ImageOff":"affliction/amplifycurse-off.jpg",
+				"ImageOn":"affliction/amplifycurse.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Reduces the global cooldown of your Curses by 0.5 sec. Also increases the dmage done by Curse of Agony by 10%.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"GrimReach",
+				"Name":"Grim Reach",
+				"ImageOff":"affliction/grimreach-off.jpg",
+				"ImageOn":"affliction/grimreach.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the range of your Affliction spells by [@value]%.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"Nightfall",
+				"Name":"Nightfall",
+				"ImageOff":"affliction/nightfall-off.jpg",
+				"ImageOn":"affliction/nightfall.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Gives your Corruption and Drain Life spells a [@value]% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
+				"PointValues":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EmpoweredCorruption",
+				"Name":"Empowered Corruption",
+				"ImageOff":"affliction/empoweredcorruption-off.jpg",
+				"ImageOn":"affliction/empoweredcorruption.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the damage of your Corruption spell by an amount equal to [@value]% of your spell power.",
+				"PointValues":[12, 24, 36]
+			}
+        ],
+        [
+			{
+				"Id":"ShadowEmbrace",
+				"Name":"Shadow Embrace",
+				"ImageOff":"affliction/shadowembrace-off.jpg",
+				"ImageOn":"affliction/shadowembrace.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all periodic affliction damage dealt to the target by you by [@value]%, and reduces all periodic healing done to the target by [@value2]%. Lasts for 12 sec. Stacks up to 3 times.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id":"SiphonLife",
+				"Name":"Siphon Life",
+				"ImageOff":"affliction/siphonlife-off.jpg",
+				"ImageOn":"affliction/siphonlife.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"When you deal damage with your corruption spell, you are instantly healed for 40% of the damage done. In addition, the damage done by your Corruption, Seed of Corruption and Unstable Affliction damage over time effects is increased by 5%.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CurseofExhaustion",
+				"Name":"Curse of Exhaustion",
+				"ImageOff":"affliction/curseofexhaustion-off.jpg",
+				"ImageOn":"affliction/curseofexhaustion.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"5% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<br/>Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedFelhunter",
+				"Name":"Improved Felhunter",
+				"ImageOff":"affliction/improvedfelhunter-off.jpg",
+				"ImageOn":"affliction/improvedfelhunter.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Your Felhunter regains [@value]% of its maximum mana each time it hits with its Shadow Bite ability and the cooldown on that ability is reduced by [@value2] sec. In addition, increases the effect of your Felhunter's Fel Intelligence by [@value3]%.",
+				"PointValues":[4, 8],
+				"PointValues2":[2, 4],
+				"PointValues3":[5, 10]
+			},
+			{
+				"Id":"ShadowMastery",
+				"Name":"Shadow Mastery",
+				"ImageOff":"affliction/shadowmastery-off.jpg",
+				"ImageOn":"affliction/shadowmastery.jpg",
+				"Tier":  6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the damage dealt or life drained by your Shadow spells by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Eradication",
+				"Name":"Eradication",
+				"ImageOff":"affliction/eradication-off.jpg",
+				"ImageOn":"affliction/eradication.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"When you deal damage with Corruption you have a [@value]% chance to increase your spell casting speed by [@value2]% for 10 sec.",
+				"PointValues":[6, 6, 6],
+				"PointValues2":[6, 12, 20]
+			},
+			{
+				"Id":"Contagion",
+				"Name":"Contagion",
+				"ImageOff":"affliction/contagion-off.jpg",
+				"ImageOn":"affliction/contagion.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the damage of Curse of Agony, Corruption and Seed of Corruption by [@value]% and reduces the chance your helpfull Affliction spells and damage over time effects will be dispelled by an additional [@value2]%.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[6, 12, 18, 24, 30]
+			},
+			{
+				"Id":"DarkPact",
+				"Name":"Dark Pact",
+				"ImageOff":"affliction/darkpact-off.jpg",
+				"ImageOn":"affliction/darkpact.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"30 yd range<br>Instant<br>Drains 305 of your summoned demon's Mana, returning 100% to you.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedHowlofTerror",
+				"Name":"Improved Howl of Terror",
+				"ImageOff":"affliction/improvedhowlofterror-off.jpg",
+				"ImageOn":"affliction/improvedhowlofterror.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Reduces the casting time of your Howl of Terror spell by [@value] sec.",
+				"PointValues":[0.8, 1.5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Malediction",
+				"Name":"Malediction",
+				"ImageOff":"affliction/malediction-off.jpg",
+				"ImageOn":"affliction/malediction.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases your spell damage by [@value]% and increases the periodic critical strike chance of your corruption and unstable affliction spells by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[3, 6, 9]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"DeathsEmbrace",
+				"Name":"Deaths Embrace",
+				"ImageOff":"affliction/deathsembrace-off.jpg",
+				"ImageOn":"affliction/deathsembrace.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Increases the amount drained by your Drain Life by [@value]% while your health is at or below [@value2]% health, and increases the damage done by your Warlock Shadow spells by [@value3]% when your target is at or below 35% health.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[20, 20, 20],
+				"PointValues3":[4, 8, 12]
+			},
+			{
+				"Id":"UnstableAffliction",
+				"Name":"Unstable Affliction",
+				"ImageOff":"affliction/unstableaffliction-off.jpg",
+				"ImageOn":"affliction/unstableaffliction.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"12% of base mana<div style='float:right'>30 yd range</div><br/>1.5 sec Cast<br/>Shadow energy slowly destroys the target, causing 660 damage over 15 sec. In addition, if the Unstable Affliction is dispelled it will cause 990 damage to the dispeller and silence them for 5 sec. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Pandemic",
+				"Name":"Pandemic",
+				"ImageOff":"affliction/pandemic-off.jpg",
+				"ImageOn":"affliction/pandemic.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Grants the periodic damage from your Corruption and Unstable Affliction spells the ability to critically hit for 100% increased damage, and increase the critical strike damage bonus of your Haunt spell by 100%.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EverlastingAffliction",
+				"Name":"Everlasting Affliction",
+				"ImageOff":"affliction/everlastingaffliction-off.jpg",
+				"ImageOn":"affliction/everlastingaffliction.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"Your Corruption and Unstable Affliction spells gain an additional [@value]% of your bonus spell damage and your Drain Life, Drain Soul, Shadow Bolt and Haunt spells have a [@value2]% chance to reset the duration of your Corruption spell on the target.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Haunt",
+				"Name":"Haunt",
+				"ImageOff":"affliction/haunt-off.jpg",
+				"ImageOn":"affliction/haunt.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description":"10% of base mana<div style='float:right'>30 yd range</div><br/>1.5 sec Cast<div style='float:right'>8 sec cooldown</div><br/>You send a ghostly soul into the target, dealing 645 to 753 Shadow damage and increasing all damage done by your Warlock damage-over-time effects on the target by 20% for 12 sec. When the Haunt spell ends or is dispelled, the soul returns to you, healing you for 100% of the damage it did to the target.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

@@ -1,0 +1,549 @@
+{
+	"BackgroundImage":"protection/background.jpg",
+    "TreeIcon":"Hero10.png",
+    "ClassName":"Paladin",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Divinity",
+				"Name":"Divinity",
+				"ImageOff":"protection/divinity-off.jpg",
+				"ImageOn":"protection/divinity.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all healing done by your holy spells and all holy healing effects on you by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+			{
+				"Id":"DivineStrength",
+				"Name":"Divine Strength",
+				"ImageOff":"protection/divinestrength-off.jpg",
+				"ImageOn":"protection/divinestrength.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Strength by [@value]%.",
+				"PointValues":[3, 6, 9, 12, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Stoicism",
+				"Name":"Stoicism",
+				"ImageOff":"protection/stoicism-off.jpg",
+				"ImageOn":"protection/stoicism.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of all Stun effects by an additional [@value]% and reduces the chance your Paladin helpful spells and damage over time effects will be dispelled by an additional [@value2]%.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"GuardiansFavor",
+				"Name":"Guardians Favor",
+				"ImageOff":"protection/guardiansfavor-off.jpg",
+				"ImageOn":"protection/guardiansfavor.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Hand of Protection by [@value] sec and increases the duration of your Hand of Freedom by [@value2] sec.",
+				"PointValues":[60, 120],
+				"PointValues2":[2, 4]
+			},
+			{
+				"Id":"Anticipation",
+				"Name":"Anticipation",
+				"ImageOff":"protection/anticipation-off.jpg",
+				"ImageOn":"protection/anticipation.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to dodge by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"DivineSacrifice",
+				"Name":"Divine Sacrifice",
+				"ImageOff":"protection/divinesacrifice-off.jpg",
+				"ImageOn":"protection/divinesacrifice.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>2 min cooldown</div><br/>30% off all damage taken by party members within 30 yards is redirected to the paladin (up to a maximum of 40% of the Paladin's health times the number of party members). Damage which reduces the Paladin below 20% health will break the effect. Lasts 10 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedRighteousFury",
+				"Name":"Improved Righteous Fury",
+				"ImageOff":"protection/improvedrighteousfury-off.jpg",
+				"ImageOn":"protection/improvedrighteousfury.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While Righteous Fury is active, all damage taken is reduced by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"Toughness",
+				"Name":"Toughness",
+				"ImageOff":"protection/toughness-off.jpg",
+				"ImageOn":"protection/toughness.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your armor value from items by [@value]% and increases threat generated from all skills by [@value2]%.",
+				"PointValues":[2, 4, 6, 8, 10],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"DivineGuardian",
+				"Name":"Divine Guardian",
+				"ImageOff":"protection/divineguardian-off.jpg",
+				"ImageOn":"protection/divineguardian.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When Divine Sacrifice is activated, your party and raid members within [@value] yards take  [@value2]% reduced damage for [@value3] sec. In addition, increases the duration of your Sacred Shield by [@value4]% and the amount absorbed by [@value5]%.",
+				"PointValues":[30, 30],
+				"PointValues2":[10, 20],
+				"PointValues3":[6, 6],
+				"PointValues4":[50, 100],
+				"PointValues5":[20, 40]
+			},
+			{
+				"Id":"ImprovedHammerofJustice",
+				"Name":"Improved Hammer of Justice",
+				"ImageOff":"protection/improvedhammerofjustice-off.jpg",
+				"ImageOn":"protection/improvedhammerofjustice.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Decreases the cooldown of your Hammer of Justice spell by [@value] sec.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"ImprovedDevotionAura",
+				"Name":"Improved Devotion Aura",
+				"ImageOff":"protection/improveddevotionaura-off.jpg",
+				"ImageOn":"protection/improveddevotionaura.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the armor bonus of your Devotion Aura by [@value]% and increases the amount healed on any target affected by Devotion Aura by [@value2]%.",
+				"PointValues":[17, 34, 50],
+				"PointValues2":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BlessingofSanctuary",
+				"Name":"Blessing of Sanctuary",
+				"ImageOff":"protection/blessingofsanctuary-off.jpg",
+				"ImageOn":"protection/blessingofsanctuary.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"5% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<br/>Places a Blessing on the friendly target, reducing damage taken from all sources by 3% for 10 min and increasing strenght and stamina by 10%. In addition, when the target blocks, parries, or dodges a melee attack the target will gain 2% of the maximum displayed mana. Players may only have one Blessing on them per Paladin at any one time.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Reckoning",
+				"Name":"Reckoning",
+				"ImageOff":"protection/reckoning-off.jpg",
+				"ImageOn":"protection/reckoning.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance after being hit by any damaging attack that the next [@value2] weapon swings within [@value3] sec will generate an additional attack.",
+				"PointValues":[2, 4, 6, 8, 10],
+				"PointValues2":[4, 4, 4, 4, 4],
+				"PointValues3":[8, 8, 8, 8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SacredDuty",
+				"Name":"Sacred Duty",
+				"ImageOff":"protection/sacredduty-off.jpg",
+				"ImageOn":"protection/sacredduty.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Stamina by [@value2]%, reduces the cooldown of your Divine Shield spell by [@value] sec.",
+				"PointValues":[30, 60],
+				"PointValues2":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"One-HandedWeaponSpecialization",
+				"Name":"One-Handed Weapon Specialization",
+				"ImageOff":"protection/one-handedweaponspecialization-off.jpg",
+				"ImageOn":"protection/one-handedweaponspecialization.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all damage you deal when a one-handed melee weapon is equipped by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SpiritualAttunement",
+				"Name":"Spiritual Attunement",
+				"ImageOff":"protection/spiritualattunement-off.jpg",
+				"ImageOn":"protection/spiritualattunement.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"A passive ability that gives you mana when healed by other friendly target spells. The amount of mana gained is equal to [@value]% of the amount healed.",
+				"PointValues":[5, 10]
+			},
+			{
+				"Id":"HolyShield",
+				"Name":"Holy Shield",
+				"ImageOff":"protection/holyshield-off.jpg",
+				"ImageOn":"protection/holyshield.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"7% of base mana<br/>Instant Cast<div style='float:right;'>8 sec cooldown</div><br/>Requires Shields<br/>Increases chance to block by 30% for 10 sec and deals 211 Holy damage for each attack blocked while active. Each block expends a charge. 8 charges.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ArdentDefender",
+				"Name":"Ardent Defender",
+				"ImageOff":"protection/ardentdefender-off.jpg",
+				"ImageOn":"protection/ardentdefender.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Damage taken that takes you below [@value]% health, is reduced by [@value2]%. In addition, attacks that would otherwise kill you have a [@value3]% chance to heal you by up to [@value4]% of your maximum  health (amount healed based on defense). This healing effect cannot occur more often than once every [@value5] min.",
+				"PointValues":[35, 35, 35],
+				"PointValues2":[7, 14, 20],
+				"PointValues3":[33, 66, 100],
+				"PointValues4":[10, 20, 30],
+				"PointValues5":[2, 2, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Redoubt",
+				"Name":"Redoubt",
+				"ImageOff":"protection/redoubt-off.jpg",
+				"ImageOn":"protection/redoubt.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your block value by [@value]% and damaging melee and ranged attacks against you have a [@value2]% chance to increase your chance to block by [@value3]%.  Lasts [@value4] sec or [@value5] blocks.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[10, 10, 10],
+				"PointValues3":[10, 20, 30],
+				"PointValues4":[10, 10, 10],
+				"PointValues5":[5, 5, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CombatExpertise",
+				"Name":"Combat Expertise",
+				"ImageOff":"protection/combatexpertise-off.jpg",
+				"ImageOn":"protection/combatexpertise.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your expertise by [@value], total Stamina and chance to critically hit by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"TouchedbytheLight",
+				"Name":"Touched by the Light",
+				"ImageOff":"protection/touchedbythelight-off.jpg",
+				"ImageOn":"protection/touchedbythelight.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your spell power by an amount equal to [@value]% of your Strength and increases the amount healed by your critical heals by [@value2]%.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"AvengersShield",
+				"Name":"Avengers Shield",
+				"ImageOff":"protection/avengersshield-off.jpg",
+				"ImageOn":"protection/avengersshield.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"20% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<div style='float:right;'>30 sec cooldown</div><br/>Hurls a holy shield at the enemy, dealing 376 to 450 Holy damage, Dazing them and then jumping to additional nearby enemies. Affects 3 total targets. Lasts 10 sec.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"GuardedbytheLight",
+				"Name":"Guarded by the Light",
+				"ImageOff":"protection/guardedbythelight-off.jpg",
+				"ImageOn":"protection/guardedbythelight.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces spell damage taken by [@value3]% and gives a [@value]% chance to refresh the duration of Divine Plea when you hit an enemy. In addition , your Divine Plea spell is [@value2]% less likely to be dispelled.",
+				"PointValues":[50, 100],
+				"PointValues2":[50, 100],
+				"PointValues3":[3, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ShieldoftheTemplar",
+				"Name":"Shield of the Templar",
+				"ImageOff":"protection/shieldofthetemplar-off.jpg",
+				"ImageOn":"protection/shieldofthetemplar.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces all damage taken by [@value2]% and grants your Avengers Shield a [@value]% chance to silence your targets for [@value3] sec.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[1, 2, 3],
+				"PointValues3":[3, 3, 3]
+			},
+			{
+				"Id":"JudgementsoftheJust",
+				"Name":"Judgements of the Just",
+				"ImageOff":"protection/judgementsofthejust-off.jpg",
+				"ImageOn":"protection/judgementsofthejust.jpg",
+				"Tier":  10,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Hammer of Justice by [@value] sec, increases the duration of your Seal of Justce effect by [@value2] sec and your Judgement spells also reduce the melee attack speed of the target by [@value3]%.",
+				"PointValues":[5, 10],
+				"PointValues2":[0.5, 1],
+				"PointValues3":[10, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"HammeroftheRighteous",
+				"Name":"Hammer of the Righteous",
+				"ImageOff":"protection/hammeroftherighteous-off.jpg",
+				"ImageOn":"protection/hammeroftherighteous.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"4% of base mana<div style='float:right;'>Melee range</div><br/>Instant Cast<div style='float:right;'>6 sec cooldown</div><br/>Requires One-Handed Melee Weapon<br/>Hammer the current target and up to 2 additional nearby targets, causing 4 times your main hand damage per second as Holy damage.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

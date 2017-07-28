@@ -1,0 +1,536 @@
+{
+	"BackgroundImage":"arcane/background.jpg",
+    "TreeIcon":"Hero6.png",
+    "ClassName":"Mage",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ArcaneSubtlety",
+				"Name":"Arcane Subtlety",
+				"ImageOff":"arcane/arcanesubtlety-off.jpg",
+				"ImageOn":"arcane/arcanesubtlety.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the chance your helpful Mage spells and damage over time effects will be dispelled by [@value]% and reduces the threat caused by your Arcane spells by [@value2]%.",
+				"PointValues":[15, 30],
+				"PointValues2":[20, 40]
+			},
+			{
+				"Id":"ArcaneFocus",
+				"Name":"Arcane Focus",
+				"ImageOff":"arcane/arcanefocus-off.jpg",
+				"ImageOn":"arcane/arcanefocus.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to hit and reduces the mana cost of your Mage Arcane spells by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"ArcaneStability",
+				"Name":"Arcane Stability",
+				"ImageOff":"arcane/arcanestability-off.jpg",
+				"ImageOn":"arcane/arcanestability.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by [@value]%.",
+				"PointValues":[20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ArcaneFortitude",
+				"Name":"Arcane Fortitude",
+				"ImageOff":"arcane/arcanefortitude-off.jpg",
+				"ImageOn":"arcane/arcanefortitude.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your armor by an amount equal to [@value]% of your Intellect.",
+				"PointValues":[50, 100, 150]
+			},
+			{
+				"Id":"MagicAbsorption",
+				"Name":"Magic Absorption",
+				"ImageOff":"arcane/magicabsorption-off.jpg",
+				"ImageOn":"arcane/magicabsorption.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all resistances by [@value] per level and causes all spells you fully resist to restore [@value2]% of your total mana.  [@value3] sec. cooldown.",
+				"PointValues":[0.5, 1],
+				"PointValues2":[1, 2],
+				"PointValues3":[1, 1]
+			},
+			{
+				"Id":"ArcaneConcentration",
+				"Name":"Arcane Concentration",
+				"ImageOff":"arcane/arcaneconcentration-off.jpg",
+				"ImageOn":"arcane/arcaneconcentration.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value2]% chance of entering a Clearcasting state after any damaging spell hits a target. The Clearcasting state reduces the mana cost of your next damaging spell by [@value]%.",
+				"PointValues":[100, 100, 100, 100, 100],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"MagicAttunement",
+				"Name":"Magic Attunement",
+				"ImageOff":"arcane/magicattunement-off.jpg",
+				"ImageOn":"arcane/magicattunement.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Mage Arcane spells by [@value2] yards and the effect of your Amplify Magic and Dampen Magic spells by [@value]%.",
+				"PointValues":[25, 50],
+				"PointValues2":[3, 6]
+			},
+			{
+				"Id":"SpellImpact",
+				"Name":"Spell Impact",
+				"ImageOff":"arcane/spellimpact-off.jpg",
+				"ImageOn":"arcane/spellimpact.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage of your Arcane Explosion, Arcane Blast, Blast Wave, Fire Blast, Scorch, Fireball, Ice Lance and Cone of Cold spells by an additional [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"StudentoftheMind",
+				"Name":"Student of the Mind",
+				"ImageOff":"arcane/studentofthemind-off.jpg",
+				"ImageOn":"arcane/studentofthemind.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Spirit by [@value]%.",
+				"PointValues":[4, 7, 10]
+			},
+			{
+				"Id":"FocusMagic",
+				"Name":"Focus Magic",
+				"ImageOff":"arcane/focusmagic-off.jpg",
+				"ImageOn":"arcane/focusmagic.jpg",
+				"Tier":  3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"5% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<br/>Increases the target's chance to critically hit with all spells by 3%. When the target critically hits the caster's chance to critically hit with spells is increased by 3% for 10 sec.",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ArcaneShielding",
+				"Name":"Arcane Shielding",
+				"ImageOff":"arcane/arcaneshielding-off.jpg",
+				"ImageOn":"arcane/arcaneshielding.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Decreases the mana lost per point of damage taken when Mana Shield is active by [@value]% and increases the resistances granted by Mage Armor by [@value2]%.",
+				"PointValues":[17, 33],
+				"PointValues2":[25, 50]
+			},
+			{
+				"Id":"ImprovedCounterspell",
+				"Name":"Improved Counterspell",
+				"ImageOff":"arcane/improvedcounterspell-off.jpg",
+				"ImageOn":"arcane/improvedcounterspell.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Counterspell also silences the target for [@value] sec.",
+				"PointValues":[2, 4]
+			},
+			{
+				"Id":"ArcaneMeditation",
+				"Name":"Arcane Meditation",
+				"ImageOff":"arcane/arcanemeditation-off.jpg",
+				"ImageOn":"arcane/arcanemeditation.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Allows [@value]% of your Mana regeneration to continue while casting, and increases spell haste by [@value2]%",
+				"PointValues":[8, 16, 24],
+				"PointValues2":[1, 2, 3]
+			},
+			{
+				"Id":"TormenttheWeak",
+				"Name":"Torment the Weak",
+				"ImageOff":"arcane/tormenttheweak-off.jpg",
+				"ImageOn":"arcane/tormenttheweak.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast and Arcane Barrage abilities deal [@value]% more damage to snared or slowedtargets.",
+				"PointValues":[4, 8, 12]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedBlink",
+				"Name":"Improved Blink",
+				"ImageOff":"arcane/improvedblink-off.jpg",
+				"ImageOn":"arcane/improvedblink.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of Blink by [@value]% and for [@value3] sec after casting your chance to be hit by all attacks and spells is reduced by [@value2]%.",
+				"PointValues":[25, 50],
+				"PointValues2":[15, 30],
+				"PointValues3":[4, 4]
+			},
+			{
+				"Id":"PresenceofMind",
+				"Name":"Presence of Mind",
+				"ImageOff":"arcane/presenceofmind-off.jpg",
+				"ImageOn":"arcane/presenceofmind.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>2 min cooldown</div><br/>When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ArcaneMind",
+				"Name":"Arcane Mind",
+				"ImageOff":"arcane/arcanemind-off.jpg",
+				"ImageOn":"arcane/arcanemind.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Intellect by [@value]%.",
+				"PointValues":[3, 6, 9, 12, 15]
+			}
+        ],
+        [
+			{
+				"Id":"PrismaticCloak",
+				"Name":"Prismatic Cloak",
+				"ImageOff":"arcane/prismaticcloak-off.jpg",
+				"ImageOn":"arcane/prismaticcloak.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces all damage taken by [@value]% and reduces the fade time of your invisibility spell by [@value2] sec.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[1, 2, 3]
+			},
+			{
+				"Id":"ArcaneInstability",
+				"Name":"Arcane Instability",
+				"ImageOff":"arcane/arcaneinstability-off.jpg",
+				"ImageOn":"arcane/arcaneinstability.jpg",
+				"Tier":  6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your arcane spells and your critical strike chance by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"ArcanePotency",
+				"Name":"Arcane Potency",
+				"ImageOff":"arcane/arcanepotency-off.jpg",
+				"ImageOn":"arcane/arcanepotency.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your next damaging spell by [@value]% after gaining Clearcasting or Presence of Mind.",
+				"PointValues":[15, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ArcaneEmpowerment",
+				"Name":"Arcane Empowerment",
+				"ImageOff":"arcane/arcaneempowerment-off.jpg",
+				"ImageOn":"arcane/arcaneempowerment.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage of your Arcane Missiles spell by an amount equal to [@value2]% of your spell power and the damage of your Arcane Blast and Arcane Barrage by [@value3]% of your spell power. In addition increases the damage of all party and raid members within [@value] yards by [@value4]%.",
+				"PointValues":[100, 100, 100],
+				"PointValues2":[15, 30, 45],
+				"PointValues3":[3, 6, 9],
+				"PointValues4":[1, 2, 3]
+			},
+			{
+				"Id":"ArcanePower",
+				"Name":"Arcane Power",
+				"ImageOff":"arcane/arcanepower-off.jpg",
+				"ImageOn":"arcane/arcanepower.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>2 min cooldown</div><br/>When activated, your spells deal 20% more damage while costing 20% more mana to cast. This effect lasts 15 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"IncantersAbsorption",
+				"Name":"Incanters Absorption",
+				"ImageOff":"arcane/incantersabsorption-off.jpg",
+				"ImageOn":"arcane/incantersabsorption.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage absorbed by Mage wards, Mana shield, and Ice Barrier by [@value]/%.",
+				"PointValues":[10, 20, 30]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ArcaneFlows",
+				"Name":"Arcane Flows",
+				"ImageOff":"arcane/arcaneflows-off.jpg",
+				"ImageOn":"arcane/arcaneflows.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Presence of Mind, Arcane Power and Invisibility spells by [@value]%. And the cooldown of your Evocation spell by [@value2] min.",
+				"PointValues":[15, 30],
+				"PointValues2":[1, 2]
+			},
+			{
+				"Id":"MindMastery",
+				"Name":"Mind Mastery",
+				"ImageOff":"arcane/mindmastery-off.jpg",
+				"ImageOn":"arcane/mindmastery.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases spell power by [@value]% of your total intellect.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Slow",
+				"Name":"Slow",
+				"ImageOff":"arcane/slow-off.jpg",
+				"ImageOn":"arcane/slow.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<br/>Reduces target's movement speed by 60%, increases the time between ranged attacks by 60% and increases casting time by 30%. Lasts 15 sec. Slow can only affect one target at a time.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MissileBarrage",
+				"Name":"Missile Barrage",
+				"ImageOff":"arcane/missilebarrage-off.jpg",
+				"ImageOn":"arcane/missilebarrage.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Arcane Blast, Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a [@value2]% chance to reduce the channeled duration of the next Arcane Missiles spell by [@value] secs and missiles will fire every .[@value3] secs.",
+				"PointValues":[2.5, 2.5, 2.5, 2.5, 2.5],
+				"PointValues2":[4, 8, 12, 16, 20],
+				"PointValues3":[5, 5, 5, 5, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"NetherwindPresence",
+				"Name":"Netherwind Presence",
+				"ImageOff":"arcane/netherwindpresence-off.jpg",
+				"ImageOn":"arcane/netherwindpresence.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your spell haste by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"SpellPower",
+				"Name":"Spell Power",
+				"ImageOff":"arcane/spellpower-off.jpg",
+				"ImageOn":"arcane/spellpower.jpg",
+				"Tier":  10,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases critical strike damage bonus of all Mage Arcane spells by [@value]%.",
+				"PointValues":[25, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ArcaneBarrage",
+				"Name":"Arcane Barrage",
+				"ImageOff":"arcane/arcanebarrage-off.jpg",
+				"ImageOn":"arcane/arcanebarrage.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"15% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<div style='float:right;'>3 sec cooldown</div><br/>Launches several missiles at the enemy target, causing 936 to 1144 Arcane damage.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

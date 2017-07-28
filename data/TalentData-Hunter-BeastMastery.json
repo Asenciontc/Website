@@ -1,0 +1,545 @@
+{
+	"BackgroundImage":"beastmastery/background.jpg",
+    "TreeIcon":"Hero3.png",
+    "ClassName":"Hunter",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedAspectoftheHawk",
+				"Name":"Improved Aspect of the Hawk",
+				"ImageOff":"beastmastery/improvedaspectofthehawk-off.jpg",
+				"ImageOn":"beastmastery/improvedaspectofthehawk.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a [@value]% chance of increasing ranged attack speed by [@value2]% for [@value3] sec.",
+				"PointValues":[10, 10, 10, 10, 10],
+				"PointValues2":[3, 6, 9, 12, 15],
+                "PointValues3":[12, 12, 12, 12, 12]
+				
+			},
+			{
+				"Id":"EnduranceTraining",
+				"Name":"Endurance Training",
+				"ImageOff":"beastmastery/endurancetraining-off.jpg",
+				"ImageOn":"beastmastery/endurancetraining.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the Health of your pets by [@value]% and your total health by [@value2]%.",
+				"PointValues":[2, 4, 6, 8, 10],
+				"PointValues2":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FocusedFire",
+				"Name":"Focused Fire",
+				"ImageOff":"beastmastery/focusedfire-off.jpg",
+				"ImageOn":"beastmastery/focusedfire.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All damage caused by you is increased by [@value2]% while your pet is active and the critical strike chance of your pet's special abilities is increased by [@value]% while Kill Command is active.",
+				"PointValues":[10, 20],
+				"PointValues2":[1, 2]
+			},
+			{
+				"Id":"ImprovedAspectoftheMonkey",
+				"Name":"Improved Aspect of the Monkey",
+				"ImageOff":"beastmastery/improvedaspectofthemonkey-off.jpg",
+				"ImageOn":"beastmastery/improvedaspectofthemonkey.jpg",
+				"Tier":  2 ,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the Dodge bonus of your Aspect of the Monkey by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"ThickHide",
+				"Name":"Thick Hide",
+				"ImageOff":"beastmastery/thickhide-off.jpg",
+				"ImageOn":"beastmastery/thickhide.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Armor contribution from items by [@value]%.",
+				"PointValues":[4, 7, 10]
+			},
+			{
+				"Id":"ImprovedRevivePet",
+				"Name":"Improved Revive Pet",
+				"ImageOff":"beastmastery/improvedrevivepet-off.jpg",
+				"ImageOn":"beastmastery/improvedrevivepet.jpg",
+				"Tier":  2,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Revive Pet's casting time is reduced by [@value3] sec, mana cost is reduced by [@value]%, and increases the health your pet returns with by an additional [@value2]%.",
+				"PointValues":[20, 40],
+				"PointValues2":[15, 30],
+				"PointValues3":[3, 6]
+			}
+        ],
+        [
+			{
+				"Id":"Pathfinding",
+				"Name":"Pathfinding",
+				"ImageOff":"beastmastery/pathfinding-off.jpg",
+				"ImageOn":"beastmastery/pathfinding.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by [@value]%, and increases your speed while mounted by [@value2]%. The mounted movement speed increase does not stack with other effects.",
+				"PointValues":[4, 8],
+				"PointValues2":[5, 10]
+			},
+			{
+				"Id":"AspectMastery",
+				"Name":"Aspect Mastery",
+				"ImageOff":"beastmastery/aspectmastery-off.jpg",
+				"ImageOn":"beastmastery/aspectmastery.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Aspect of the Viper - Reduces the damage penalty by 10%.<br/><br/>Aspect of the Monkey - Reduces the damage done to you while active by 2%<br/><br/>Aspect of the Hawk - Increases the attack power bonus by 30%<br/><br/>Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"UnleashedFury",
+				"Name":"Unleashed Fury",
+				"ImageOff":"beastmastery/unleashedfury-off.jpg",
+				"ImageOn":"beastmastery/unleashedfury.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your tamed pets by [@value]%.",
+				"PointValues":[3, 6, 9, 12, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedMendPet",
+				"Name":"Improved Mend Pet",
+				"ImageOff":"beastmastery/improvedmendpet-off.jpg",
+				"ImageOn":"beastmastery/improvedmendpet.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of your Mend Pet spell by [@value]% and gives the Mend Pet spell a [@value2]% chance of cleansing [@value3] Curse, Disease, Magic or Poison effect from the pet each tick.",
+				"PointValues":[10, 20],
+				"PointValues2":[25, 50],
+				"PointValues3":[1, 1]
+			},
+			{
+				"Id":"Ferocity",
+				"Name":"Ferocity",
+				"ImageOff":"beastmastery/ferocity-off.jpg",
+				"ImageOn":"beastmastery/ferocity.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your pets by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SpiritBond",
+				"Name":"Spirit Bond",
+				"ImageOff":"beastmastery/spiritbond-off.jpg",
+				"ImageOn":"beastmastery/spiritbond.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While your tamed pet is active, you and your pet will regenerate [@value]% of total health every [@value2] sec and increases healing done to you and your pet by [@value3]%.",
+				"PointValues":[1, 2],
+				"PointValues2":[10, 10],
+				"PointValues3":[5, 10]
+			},
+			{
+				"Id":"Intimidation",
+				"Name":"Intimidation",
+				"ImageOff":"beastmastery/intimidation-off.jpg",
+				"ImageOn":"beastmastery/intimidation.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"6% of base mana<div style='float:right;'>100 yd range</div><br/>Instant Cast<div style='float:right;'>1 min cooldown</div><br/>Command your pet to intimidate the target, causing a high amount of threat and stunning the target for 3 sec. Lasts 15 sec. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BestialDiscipline",
+				"Name":"Bestial Discipline",
+				"ImageOff":"beastmastery/bestialdiscipline-off.jpg",
+				"ImageOn":"beastmastery/bestialdiscipline.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the Focus regeneration of your pets by [@value]%.",
+				"PointValues":[50, 100]
+			}
+        ],
+        [
+			{
+				"Id":"AnimalHandler",
+				"Name":"Animal Handler",
+				"ImageOff":"beastmastery/animalhandler-off.jpg",
+				"ImageOn":"beastmastery/animalhandler.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your pet's attack power by [@value]% and increases the duration of your Master's Call ability by [@value2] sec.",
+				"PointValues":[5, 10],
+				"PointValues2":[3, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Frenzy",
+				"Name":"Frenzy",
+				"ImageOff":"beastmastery/frenzy-off.jpg",
+				"ImageOn":"beastmastery/frenzy.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your pet a [@value]% chance to gain a [@value2]% attack speed increase for [@value3] sec after dealing a critical strike.",
+				"PointValues":[20, 40, 60, 80, 100],
+				"PointValues2":[30, 30, 30, 30, 30],
+				"PointValues3":[8, 8, 8, 8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FerociousInspiration",
+				"Name":"Ferocious Inspiration",
+				"ImageOff":"beastmastery/ferociousinspiration-off.jpg",
+				"ImageOn":"beastmastery/ferociousinspiration.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All party members have all damage increased by [@value]% within [@value2] yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by [@value3]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[100, 100, 100],
+                "PointValues3":[3, 6, 9]
+			},
+			{
+				"Id":"BestialWrath",
+				"Name":"Bestial Wrath",
+				"ImageOff":"beastmastery/bestialwrath-off.jpg",
+				"ImageOn":"beastmastery/bestialwrath.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Send your pet into a rage causing 50% additional damage for 10 sec. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CatlikeReflexes",
+				"Name":"Catlike Reflexes",
+				"ImageOff":"beastmastery/catlikereflexes-off.jpg",
+				"ImageOn":"beastmastery/catlikereflexes.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to dodge by [@value2]% and your pet's chance to dodge by an additional [@value3]%. In addition reduces the cooldown of your Kill Command ability by [@value] sec.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[1, 2, 3],
+				"PointValues3":[3, 6, 9]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Invigoration",
+				"Name":"Invigoration",
+				"ImageOff":"beastmastery/invigoration-off.jpg",
+				"ImageOn":"beastmastery/invigoration.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When your pet scores a critical hit with a special ability, you have a [@value]% chance to instantly regenerate [@value2]% mana.",
+				"PointValues":[50, 100],
+				"PointValues2":[1, 1]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SerpentsSwiftness",
+				"Name":"Serpents Swiftness",
+				"ImageOff":"beastmastery/serpentsswiftness-off.jpg",
+				"ImageOn":"beastmastery/serpentsswiftness.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases ranged combat attack speed by [@value]% and your pet's melee attack speed by [@value2]%.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[4, 8, 12, 16, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Longevity",
+				"Name":"Longevity",
+				"ImageOff":"beastmastery/longevity-off.jpg",
+				"ImageOn":"beastmastery/longevity.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by [@value]%.",
+				"PointValues":[10, 20, 30]
+			},
+			{
+				"Id":"TheBeastWithin",
+				"Name":"The Beast Within",
+				"ImageOff":"beastmastery/thebeastwithin-off.jpg",
+				"ImageOn":"beastmastery/thebeastwithin.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When your pet is under the effects of Bestial Wrath, you also go into a rage causing 20% additional damage and reducing mana costs of all spells and effects by 50% for 10 sec. While enraged, you do not feel pity or remorse or fear and you cannot be stopped unless killed.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CobraStrikes",
+				"Name":"Cobra Strikes",
+				"ImageOff":"beastmastery/cobrastrikes-off.jpg",
+				"ImageOn":"beastmastery/cobrastrikes.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"You have a [@value]% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next [@value2] special attacks to critically hit.",
+				"PointValues":[20, 40, 60],
+				"PointValues2":[2, 2, 2]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"KindredSpirits",
+				"Name":"Kindred Spirits",
+				"ImageOff":"beastmastery/kindredspirits-off.jpg",
+				"ImageOn":"beastmastery/kindredspirits.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your tamed pet's damage by [@value]% and you and your pet's movement speed by [@value2]% while your pet is active. This does not stack with other movement speed increasing effects.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BeastMastery",
+				"Name":"Beast Mastery",
+				"ImageOff":"beastmastery/beastmastery-off.jpg",
+				"ImageOn":"beastmastery/beastmastery.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"You master the art of Beast training, teaching you the ability to tame Exotic pets and increasing your total amount of Pet Skill points by 6. In addition your tamed pet's damage is increased by 10%.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

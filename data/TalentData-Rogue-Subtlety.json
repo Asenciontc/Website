@@ -1,0 +1,549 @@
+{
+	"BackgroundImage":"subtlety/background.jpg",
+    "TreeIcon":"Hero17.png",
+    "ClassName":"Rogue",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"RelentlessStrikes",
+				"Name":"Relentless Strikes",
+				"ImageOff":"subtlety/relentlessstrikes-off.jpg",
+				"ImageOn":"subtlety/relentlessstrikes.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your finishing moves have a [@value]% chance per combo point to restore [@value2] energy.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[25, 25, 25, 25, 25]
+			},
+			{
+				"Id":"MasterofDeception",
+				"Name":"Master of Deception",
+				"ImageOff":"subtlety/masterofdeception-off.jpg",
+				"ImageOn":"subtlety/masterofdeception.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the chance enemies have to detect you while in Stealth mode.[@value]",
+				"PointValues":["", " More effective than Master of Deception (Rank 1).", " More effective than Master of Deception (Rank 2).", " More effective than Master of Deception (Rank 3).", " More effective than Master of Deception (Rank 4)."]
+			},
+			{
+				"Id":"Opportunity",
+				"Name":"Opportunity",
+				"ImageOff":"subtlety/opportunity-off.jpg",
+				"ImageOn":"subtlety/opportunity.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage dealt with your Backstab, Mutilate, Garrote, and Ambush abilities by [@value]%.",
+				"PointValues":[10, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SleightofHand",
+				"Name":"Sleight of Hand",
+				"ImageOff":"subtlety/sleightofhand-off.jpg",
+				"ImageOn":"subtlety/sleightofhand.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the chance you are critically hit by melee and ranged attacks by [@value]% and increases the threat reduction of your Feint ability by [@value2]%.",
+				"PointValues":[1, 2],
+				"PointValues2":[10, 20]
+			},
+			{
+				"Id":"DirtyTricks",
+				"Name":"Dirty Tricks",
+				"ImageOff":"subtlety/improvedsap-off.jpg",
+				"ImageOn":"subtlety/improvedsap.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Blind and Sap abilities by [@value] yards and reduces the energy cost of your Blind and Sap abilities by [@value2]%.",
+				"PointValues":[2, 5],
+				"PointValues2":[25, 50]
+			},
+			{
+				"Id":"Camouflage",
+				"Name":"Camouflage",
+				"ImageOff":"subtlety/camouflage-off.jpg",
+				"ImageOn":"subtlety/camouflage.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your speed while stealthed by [@value]% and reduces the cooldown of your Stealth ability by [@value2] sec.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Elusiveness",
+				"Name":"Elusiveness",
+				"ImageOff":"subtlety/elusiveness-off.jpg",
+				"ImageOn":"subtlety/elusiveness.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Vanish and Blind abilities by [@value] sec. and your Cloak of Shadows ability by [@value2] sec.",
+				"PointValues":[30, 60],
+				"PointValues2":[15, 30]
+			},
+			{
+				"Id":"GhostlyStrike",
+				"Name":"Ghostly Strike",
+				"ImageOff":"subtlety/ghostlystrike-off.jpg",
+				"ImageOn":"subtlety/ghostlystrike.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"40 Energy<div style='float:right'>5 yds</div><br/>Instant<br/>20 sec cooldown<br/>A strike that deals 125% weapon damage (180% if a dagger is equipped) and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SerratedBlades",
+				"Name":"Serrated Blades",
+				"ImageOff":"subtlety/serratedblades-off.jpg",
+				"ImageOn":"subtlety/serratedblades.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Causes your attacks to ignore [@value]% of your target's Armor and increases the damage dealt by your Rupture ability by [@value2]%.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[10, 20, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Setup",
+				"Name":"Setup",
+				"ImageOff":"subtlety/setup-off.jpg",
+				"ImageOn":"subtlety/setup.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells. This cannot happen more than once per second.",
+				"PointValues":[33, 66, 100]
+			},
+			{
+				"Id":"Initiative",
+				"Name":"Initiative",
+				"ImageOff":"subtlety/initiative-off.jpg",
+				"ImageOn":"subtlety/initiative.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+				"PointValues":[33, 66, 100]
+			},
+			{
+				"Id":"ImprovedAmbush",
+				"Name":"Improved Ambush",
+				"ImageOff":"subtlety/improvedambush-off.jpg",
+				"ImageOn":"subtlety/improvedambush.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Ambush ability by [@value]%.",
+				"PointValues":[25, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"HeightenedSenses",
+				"Name":"Heightened Senses",
+				"ImageOff":"subtlety/heightenedsenses-off.jpg",
+				"ImageOn":"subtlety/heightenedsenses.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by [@value]%.[@value2]",
+				"PointValues":[2, 4],
+				"PointValues2":["", " More effective than Heightened Senses (Rank 1)."]
+			},
+			{
+				"Id":"Preparation",
+				"Name":"Preparation",
+				"ImageOff":"subtlety/preparation-off.jpg",
+				"ImageOn":"subtlety/preparation.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>8 min cooldown</div><br/>When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood and Shadowstep abilities. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"DirtyDeeds",
+				"Name":"Dirty Deeds",
+				"ImageOff":"subtlety/dirtydeeds-off.jpg",
+				"ImageOn":"subtlety/dirtydeeds.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the Energy Cost of your Cheap Shot and Garrote abilities by [@value]. Additionally, your Rogue specials cause [@value2]% more damage against targets below [@value3]% health.",
+				"PointValues":[10, 20],
+				"PointValues2":[10, 20],
+				"PointValues3":[35, 35]
+			},
+			{
+				"Id":"Hemorrhage",
+				"Name":"Hemorrhage",
+				"ImageOff":"subtlety/hemorrhage-off.jpg",
+				"ImageOn":"subtlety/hemorrhage.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"35 Energy<div style='float:right'>5 yds</div><br/>Instant<br/>An instant strike that deals 100% weapon damage (145% if a dagger is equipped) (80% if a two-hander is equipped) and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 13.  Lasts 10 charges or 15 sec.  Awards 1 combo point.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"MasterofSubtlety",
+				"Name":"Master of Subtlety",
+				"ImageOff":"subtlety/masterofsubtlety-off.jpg",
+				"ImageOn":"subtlety/masterofsubtlety.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Attacks made while stealthed and for [@value] seconds after breaking stealth cause an additional [@value2]% damage.",
+				"PointValues":[6, 6, 6],
+				"PointValues2":[4, 7, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Deadliness",
+				"Name":"Deadliness",
+				"ImageOff":"subtlety/deadliness-off.jpg",
+				"ImageOn":"subtlety/deadliness.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Attack Power by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"EnvelopingShadows",
+				"Name":"Enveloping Shadows",
+				"ImageOff":"subtlety/envelopingshadows-off.jpg",
+				"ImageOn":"subtlety/envelopingshadows.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the damage taken by area of effect attacks by [@value]%.",
+				"PointValues":[10, 20, 30]
+			},
+			{
+				"Id":"Premeditation",
+				"Name":"Premeditation",
+				"ImageOff":"subtlety/premeditation-off.jpg",
+				"ImageOn":"subtlety/premeditation.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"30 yd range<br/>Instant<div style='float:right'>20 sec cooldown</div><br/>Requires Stealth<br/>When used, adds 2 combo points to your target. You must add to or use those combo points within 20 sec or the combo points are lost. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CheatDeath",
+				"Name":"Cheat Death",
+				"ImageOff":"subtlety/cheatdeath-off.jpg",
+				"ImageOn":"subtlety/cheatdeath.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"You have a [@value]% chance that an attack which would otherwise kill you will instead reduce you to [@value2]% of your maximum health. In addition, all damage taken will be reduced by up to [@value3]% for [@value4] sec (modified by resilience). This effect cannot occur more than once per minute.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[10, 10, 10],
+				"PointValues3":[90, 90, 90],
+				"PointValues4":[3, 3, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SinisterCalling",
+				"Name":"Sinister Calling",
+				"ImageOff":"subtlety/sinistercalling-off.jpg",
+				"ImageOn":"subtlety/sinistercalling.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Agility by [@value]% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional [@value2]%.",
+				"PointValues":[2, 4, 6, 8, 10],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id":"Waylay",
+				"Name":"Waylay",
+				"ImageOff":"subtlety/waylay-off.jpg",
+				"ImageOn":"subtlety/waylay.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Ambush critical hits have a [@value]% chance to unbalance a target reducing the target's melee and ranged attack speed by [@value2]%, movement speed by [@value3]% for [@value4] sec.",
+				"PointValues":[50, 100],
+				"PointValues2":[20, 20],
+				"PointValues3":[50, 50],
+				"PointValues4":[8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"HonorAmongThieves",
+				"Name":"Honor Among Thieves",
+				"ImageOff":"subtlety/honoramongthieves-off.jpg",
+				"ImageOn":"subtlety/honoramongthieves.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When anyone in your group critically hits with a damage or healing spell or ability, you have a [@value]% chance to gain a combo point on your current target. This effect cannot occur more than once every second.",
+				"PointValues":[33, 66, 100]
+			},
+			{
+				"Id":"Shadowstep",
+				"Name":"Shadowstep",
+				"ImageOff":"subtlety/shadowstep-off.jpg",
+				"ImageOn":"subtlety/shadowstep.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10 Energy<div style='float:right'>25 yds</div><br/>Instant<br/>30 sec cooldown<br/>Attempts to step through the shadows and reappear behind your enemy and increases movement speed by 70% for 3 sec. The damage of your next Rogue ability is increased by 20% and the threat caused is reduced by 50%. Lasts 10 sec. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"FilthyTricks",
+				"Name":"Filthy Tricks",
+				"ImageOff":"subtlety/filthytricks-off.jpg",
+				"ImageOn":"subtlety/filthytricks.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown by [@value] sec and the energy cost by [@value2] of your Tricks of the Trade, Distract and Shadowstep abilities and reduces the cooldown of Preparation by [@value3] min.",
+				"PointValues":[5, 10],
+				"PointValues2":[5, 10],
+				"PointValues3":[1.5, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SlaughterfromtheShadows",
+				"Name":"Slaughter from the Shadows",
+				"ImageOff":"subtlety/slaughterfromtheshadows-off.jpg",
+				"ImageOn":"subtlety/slaughterfromtheshadows.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the energy cost of your Backstab and Ambush abilities by [@value] and the energy cost of your Hemorrhage by [@value2], and increases all physical and nature damage done by [@value3]%.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[1, 2, 3, 4, 5],
+				"PointValues3":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ShadowDance",
+				"Name":"Shadow Dance",
+				"ImageOff":"subtlety/shadowdance-off.jpg",
+				"ImageOn":"subtlety/shadowdance.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"60 sec Cooldown<br/>Enter the Shadow Dance for 6 sec, allowing the use of Sap, Garrotte, Ambush, Cheap Shot, Premeditation, Pickpocket and Disarm Trap regardless of being stealthed.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

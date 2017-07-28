@@ -1,0 +1,530 @@
+{
+	"BackgroundImage": "destruction/background.jpg",
+    "TreeIcon":"Hero23.png",
+    "ClassName":"Warlock",
+	"TalentsTiers": 
+    [
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id": "ImprovedShadowBolt",
+				"Name": "Improved Shadow Bolt",
+				"ImageOff": "destruction/improvedshadowbolt-off.jpg",
+				"ImageOn": "destruction/improvedshadowbolt.jpg",
+				"Tier": 1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your Shadow Bolt spell by [@value]% and your Shadow Bolt has a [@value2]% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec.",
+				"PointValues": [2, 4, 6, 8, 10],
+				"PointValues2": [20, 40, 60, 80, 100]
+			},
+			{
+				"Id": "Bane",
+				"Name": "Bane",
+				"ImageOff": "destruction/bane-off.jpg",
+				"ImageOn": "destruction/bane.jpg",
+				"Tier": 1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the casting time of your Shadow Bolt, Chaos Bolt and Immolate spells by [@value] sec and your Soul Fire spell by [@value2] sec.",
+				"PointValues": [0.1, 0.2, 0.3, 0.4, 0.5],
+				"PointValues2": [0.4, 0.8, 1.2, 1.6, 2.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "Aftermath",
+				"Name": "Aftermath",
+				"ImageOff": "destruction/aftermath-off.jpg",
+				"ImageOn": "destruction/aftermath.jpg",
+				"Tier": 2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the periodic damage done by your Immolate by [@value]% and your conflagrate has a [@value]% chance to daze the target for 5 sec.",
+				"PointValues": [3, 6],
+				"PointValues2": [50, 100]
+			},
+			{
+				"Id": "MoltenSkin",
+				"Name": "Molten Skin",
+				"ImageOff": "destruction/moltenskin-off.jpg",
+				"ImageOn": "destruction/moltenskin.jpg",
+				"Tier": 2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduce all damage taken by [@value]%",
+				"PointValues": [1, 2, 3]
+			},
+			{
+				"Id": "Cataclysm",
+				"Name": "Cataclysm",
+				"ImageOff": "destruction/cataclysm-off.jpg",
+				"ImageOn": "destruction/cataclysm.jpg",
+				"Tier": 2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the Mana cost of your Destruction spells by [@value]%.",
+				"PointValues": [4, 8, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "DemonicPower",
+				"Name": "Demonic Power",
+				"ImageOff": "destruction/demonicpower-off.jpg",
+				"ImageOn": "destruction/demonicpower.jpg",
+				"Tier": 3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the cooldown of your Succubus' Lash of Pain spell by [@value] sec, and reduces the casting time of your Imp's Firebolt spell by [@value2] sec",
+				"PointValues": [3, 6],
+				"PointValues2": [0.25, 0.50]
+			},
+			{
+				"Id": "Shadowburn",
+				"Name": "Shadowburn",
+				"ImageOff": "destruction/shadowburn-off.jpg",
+				"ImageOn": "destruction/shadowburn.jpg",
+				"Tier": 3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "105 mana<div style='float:right'>20 yd range</div><br/>Instant Cast<div style='float:right'>15 sec cooldown</div><br>Reagents: Soul Shard<br>Instantly blasts the target for 91 to 104 Shadow damage. If the target dies within 5 secs of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.<br><br>Talent Has Trainable Ranks",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "Ruin",
+				"Name": "Ruin",
+				"ImageOff": "destruction/ruin-off.jpg",
+				"ImageOn": "destruction/ruin.jpg",
+				"Tier": 3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by [@value]%.",
+				"PointValues": [20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+            }
+        ],
+        [
+			{
+				"Id": "Intensity",
+				"Name": "Intensity",
+				"ImageOff": "destruction/intensity-off.jpg",
+				"ImageOn": "destruction/intensity.jpg",
+				"Tier": 4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the pushback suffered from damaging attacks while casting or channeling any Destruction spell by [@value]%.",
+				"PointValues": [35, 70]
+			},
+			{
+				"Id": "DestructiveReach",
+				"Name": "Destructive Reach",
+				"ImageOff": "destruction/destructivereach-off.jpg",
+				"ImageOn": "destruction/destructivereach.jpg",
+				"Tier": 4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the range of your Destruction spells by [@value]% and reduces threat caused by Destruction spells by [@value2]%.",
+				"PointValues": [10, 20],
+				"PointValues2": [5, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ImprovedSearingPain",
+				"Name": "Improved Searing Pain",
+				"ImageOff": "destruction/improvedsearingpain-off.jpg",
+				"ImageOn": "destruction/improvedsearingpain.jpg",
+				"Tier": 4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the critical strike chance of your Searing Pain spell by [@value]%.",
+				"PointValues": [4, 7, 10]
+			}
+        ],
+        [
+			{
+				"Id": "Backlash",
+				"Name": "Backlash",
+				"ImageOff": "destruction/backlash-off.jpg",
+				"ImageOn": "destruction/backlash.jpg",
+				"Tier": 5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases your critical strike chance with spells by an additional [@value]% and gives you a [@value2]% chance when hit by a physical attack to reduce the cast time of your next Shadow Bolt or Incinerate spell by 100%. This effect lasts 8 sec and will not occur more than once every 8 seconds.",
+				"PointValues": [1, 2, 3],
+				"PointValues2": [8, 16, 25]
+			},
+			{
+				"Id": "ImprovedImmolate",
+				"Name": "Improved Immolate",
+				"ImageOff": "destruction/improvedimmolate-off.jpg",
+				"ImageOn": "destruction/improvedimmolate.jpg",
+				"Tier": 5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the initial damage of your Immolate spell by [@value]%.",
+				"PointValues": [10, 20, 30]
+			},
+			{
+				"Id": "Devastation",
+				"Name": "Devastation",
+				"ImageOff": "destruction/devastation-off.jpg",
+				"ImageOn": "destruction/devastation.jpg",
+				"Tier": 5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the critical strike chance of your Destruction spells by 5%.",
+				"PointValues": [0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "NetherProtection",
+				"Name": "Nether Protection",
+				"ImageOff": "destruction/netherprotection-off.jpg",
+				"ImageOn": "destruction/netherprotection.jpg",
+				"Tier": 6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "After being hit with a spell, you have a [@value]% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec.",
+				"PointValues": [10, 20, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "Emberstorm",
+				"Name": "Emberstorm",
+				"ImageOff": "destruction/emberstorm-off.jpg",
+				"ImageOn": "destruction/emberstorm.jpg",
+				"Tier": 6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your Fire spells by [@value]% and reduces the cast time of your Incinerate spell by [@value2] sec.",
+				"PointValues": [1, 2, 3, 4, 5],
+				"PointValues2": [0.05, 0.10, 0.15, 0.20, 0.25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "Conflagrate",
+				"Name": "Conflagrate",
+				"ImageOff": "destruction/conflagrate-off.jpg",
+				"ImageOn": "destruction/conflagrate.jpg",
+				"Tier": 7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "13% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right'>10 sec cooldown</div><br/>Consumes an Immolate or Shadowflame effect on the target to instantyly deal damage equal to 60% of your Immolate or Shadowflame andcauses an additional 40% damage over 6 sec.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "SoulLeech",
+				"Name": "Soul Leech",
+				"ImageOff": "destruction/soulleech-off.jpg",
+				"ImageOn": "destruction/soulleech.jpg",
+				"Tier": 7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a [@value]% chance to return health equal to 20% of the damage caused.",
+				"PointValues": [10, 20, 30]
+			},
+			{
+				"Id": "Pyroclasm",
+				"Name": "Pyroclasm",
+				"ImageOff": "destruction/pyroclasm-off.jpg",
+				"ImageOn": "destruction/pyroclasm.jpg",
+				"Tier": 7,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "When you critically strike with searing Pain or Conflagrate, your Fire and Shadow spell damage is increased by [@value]% for 10 sec.",
+				"PointValues": [2, 4, 6]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ShadowandFlame",
+				"Name": "Shadow and Flame",
+				"ImageOff": "destruction/shadowandflame-off.jpg",
+				"ImageOn": "destruction/shadowandflame.jpg",
+				"Tier": 8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Your Shadow Bolt, Shadowburn, Chaos Bolt, Shadowfury and Incinerate spells gain an additional [@value]% of your bonus spell damage effects.",
+				"PointValues": [4, 8, 12, 16, 20]
+			},
+			{
+				"Id": "ImprovedSoulLeech",
+				"Name": "Improved Soul Leech",
+				"ImageOff": "destruction/improvedsoulleech-off.jpg",
+				"ImageOn": "destruction/improvedsoulleech.jpg",
+				"Tier": 8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Your Soul Leech effect also restores mana to you and your summoned demon equal to [@value]% of maximum mana and has a [@value2]% chance to grant up to 10 party or raid members mana equal to 1% of maximum mana per 5 sec. Lasts 15 sec.", 
+				"PointValues": [1, 2],
+				"PointValues2": [50, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "Backdraft",
+				"Name": "Backdraft",
+				"ImageOff": "destruction/backdraft-off.jpg",
+				"ImageOn": "destruction/backdraft.jpg",
+				"Tier": 9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "When you cast Conflagrate, the cast time of your next three Destruction spells is reduced by [@value]%. Lasts 15 sec.",
+				"PointValues": [10, 20, 30]
+			},
+			{
+				"Id": "Shadowfury",
+				"Name": "Shadowfury",
+				"ImageOff": "destruction/shadowfury-off.jpg",
+				"ImageOn": "destruction/shadowfury.jpg",
+				"Tier": 9,
+				"DisplayColumn": 2,
+				"Description": "5% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right'>25 sec cooldown</div><br/>Shadowfury is unleashed, causing 357 to 422 Shadow damage and stunning all enemies within 8 yds for 3 sec.<br><br>Talent Has Trainable Ranks",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "EmpoweredImp",
+				"Name": "Empowered Imp",
+				"ImageOff": "destruction/empoweredimp-off.jpg",
+				"ImageOn": "destruction/empoweredimp.jpg",
+				"Tier": 9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your Imp by [@value]%, and all critical hits done by your Imp have a [@value2]% chance to increase your spell critical hit chance for your next Warlock spell by 100%. This effect lasts 8 sec.",
+				"PointValues": [10, 20, 30],
+				"PointValues2": [33, 66, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "FireandBrimstone",
+				"Name": "Fire and Brimstone",
+				"ImageOff": "destruction/fireandbrimstone-off.jpg",
+				"ImageOn": "destruction/fireandbrimstone.jpg",
+				"Tier": 10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your Incenerate and Chaos Bolt spells to targets affected by your Immolate by [@value]% and the critical strike chance of your Conflagrate spell is increased by [@value2]%.",
+				"PointValues": [2, 4, 6, 8, 10],
+				"PointValues2": [5, 10, 15, 20, 25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ChaosBolt",
+				"Name": "Chaos Bolt",
+				"ImageOff": "destruction/chaosbolt-off.jpg",
+				"ImageOn": "destruction/chaosbolt.jpg",
+				"Tier": 11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "6% of base mana<div style='float:right'>30 yd range</div><br/>2.5 sec Cast<div style='float:right'>12 sec cooldown</div><br/>Sends a bolt of chaotic fire at the enemy, dealing 685 to 861 Chaos damage. Chaos Bolt cannot be resisted, and pierces through all absorption effects.<br><br>Talent Has Trainable Ranks",
+				"PointValues": [0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

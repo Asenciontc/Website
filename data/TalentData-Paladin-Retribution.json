@@ -1,0 +1,542 @@
+{
+	"BackgroundImage":"retribution/background.jpg",
+    "TreeIcon":"Hero11.png",
+    "ClassName":"Paladin",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Deflection",
+				"Name":"Deflection",
+				"ImageOff":"retribution/deflection-off.jpg",
+				"ImageOn":"retribution/deflection.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to parry by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+			{
+				"Id":"Benediction",
+				"Name":"Benediction",
+				"ImageOff":"retribution/benediction-off.jpg",
+				"ImageOn":"retribution/benediction.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of all instant cast spells by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedJudgements",
+				"Name":"Improved Judgements",
+				"ImageOff":"retribution/improvedjudgements-off.jpg",
+				"ImageOn":"retribution/improvedjudgements.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Decreases the cooldown of your Judgement spells by [@value] sec.",
+				"PointValues":[1, 2]
+			},
+			{
+				"Id":"HeartoftheCrusader",
+				"Name":"Heart of the Crusader",
+				"ImageOff":"retribution/heartofthecrusader-off.jpg",
+				"ImageOn":"retribution/heartofthecrusader.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"ImprovedBlessingofMight",
+				"Name":"Improved Blessing of Might",
+				"ImageOff":"retribution/improvedblessingofmight-off.jpg",
+				"ImageOn":"retribution/improvedblessingofmight.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the attack power bonus of your Blessing of Might by [@value]%.",
+				"PointValues":[12, 25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Vindication",
+				"Name":"Vindication",
+				"ImageOff":"retribution/vindication-off.jpg",
+				"ImageOn":"retribution/vindication.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives the Paladin's damaging attacks a chance to reduce the target's attackpower by [@value] for [@value2] sec.",
+				"PointValues":[23, 46],
+				"PointValues2":[10, 10]
+			},
+			{
+				"Id":"Conviction",
+				"Name":"Conviction",
+				"ImageOff":"retribution/conviction-off.jpg",
+				"ImageOn":"retribution/conviction.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to get a critical strike with all spells and attacks by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+			{
+				"Id":"SealofCommand",
+				"Name":"Seal of Command",
+				"ImageOff":"retribution/sealofcommand-off.jpg",
+				"ImageOn":"retribution/sealofcommand.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10% of base mana<br/>Instant Cast<br/>All melee auto attacks deal 62 to 64 additional Holy damage to the target and up to 2 additional targets. Lasts 30 min.<br/><br/>Unleasing this Seal's energy will judge an enemy, instantly causing 145 to 146 Holy damage.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"PursuitofJustice",
+				"Name":"Pursuit of Justice",
+				"ImageOff":"retribution/pursuitofjustice-off.jpg",
+				"ImageOn":"retribution/pursuitofjustice.jpg",
+				"Tier":  3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of all Disarm effects by [@value]% and increases movement and mounted movement speed by [@value2]%. This does not stack with other movement speed increasing effects.",
+				"PointValues":[25, 50],
+				"PointValues2":[8, 15]
+			}
+        ],
+        [
+			{
+				"Id":"EyeforanEye",
+				"Name":"Eye for an Eye",
+				"ImageOff":"retribution/eyeforaneye-off.jpg",
+				"ImageOn":"retribution/eyeforaneye.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All criticals against you cause [@value]% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed [@value2]% of the Paladin's total health.",
+				"PointValues":[5, 10],
+				"PointValues2":[50, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SanctifiedSeals",
+				"Name":"Sanctified Seals",
+				"ImageOff":"retribution/sanctifiedseals-off.jpg",
+				"ImageOn":"retribution/sanctifiedseals.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to critically hit with all spells and attacks by [@value]% and increases the damage caused by Exorcism and Crusader Strike by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[5, 10, 15]
+			},
+			{
+				"Id":"Crusade",
+				"Name":"Crusade",
+				"ImageOff":"retribution/crusade-off.jpg",
+				"ImageOn":"retribution/crusade.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all Holy and Physical damage caused by [@value]% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[1, 2, 3]
+			}
+        ],
+        [
+			{
+				"Id":"Two-HandedWeaponSpecialization",
+				"Name":"Two-Handed Weapon Specialization",
+				"ImageOff":"retribution/two-handedweaponspecialization-off.jpg",
+				"ImageOn":"retribution/two-handedweaponspecialization.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage you deal with two-handed melee weapons by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SanctifiedRetribution",
+				"Name":"Sanctified Retribution",
+				"ImageOff":"retribution/sanctifiedretribution-off.jpg",
+				"ImageOn":"retribution/sanctifiedretribution.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Retribution Aura by 50% and all damage caused by friendly targets affected by any of your Auras is increased by 3%.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Vengeance",
+				"Name":"Vengeance",
+				"ImageOff":"retribution/vengeance-off.jpg",
+				"ImageOn":"retribution/vengeance.jpg",
+				"Tier":  6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% bonus to Physical and Holy damage you deal for [@value2] sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to [@value3] times.",
+				"PointValues":[1, 2, 3],
+                		"PointValues2":[30, 30, 30],
+                		"PointValues3":[3, 3, 3]
+			},
+			{
+				"Id":"DivinePurpose",
+				"Name":"Divine Purpose",
+				"ImageOff":"retribution/divinepurpose-off.jpg",
+				"ImageOn":"retribution/divinepurpose.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces your chance to be hit by spells and ranged attacks by [@value2]% and gives your Hand of Freedom spell a [@value]% chance to remove any Stun effects on the target.",
+				"PointValues":[50, 100],
+				"PointValues2":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"TheArtofWar",
+				"Name":"The Art of War",
+				"ImageOff":"retribution/theartofwar-off.jpg",
+				"ImageOn":"retribution/theartofwar.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage of your Judgement, Crusader Strike and Divine Storm abilities by [@value]% and when one of those abilities or your normal attacks critically hit the cast time of your next Flash of Light or Exorcism [@value2]",
+				"PointValues":[5, 10],
+				"PointValues2":["is reduced by 0.75 sec.", "becomes instant cast."]
+			},
+			{
+				"Id":"Repentance",
+				"Name":"Repentance",
+				"ImageOff":"retribution/repentance-off.jpg",
+				"ImageOn":"retribution/repentance.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"7% of base mana<div style='float:right;'>20 yd range</div><br/>Instant Cast<div style='float:right;'>1 min cooldown</div><br/>Puts the enemy target in a state of meditation, incapacitating them for up to 1 min. and removing the effect of Righteous Vengance. Any damage caused will awaken the target. Usable against Demons, Dragonkin, Giants, Humanoids and Undead.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"JudgementsoftheWise",
+				"Name":"Judgements of the Wise",
+				"ImageOff":"retribution/judgementofthewise-off.jpg",
+				"ImageOn":"retribution/judgementofthewise.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Judgement spells have a [@value]% chance to grant the Replenishment effect to up to [@value2] party or raid members mana regeneration equal to [@value3]% of their maximum mana per [@value4] sec for [@value5] sec, and to immediately grant you [@value6]% of your base mana.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[10, 10, 10],
+				"PointValues3":[1, 1, 1],
+				"PointValues4":[5, 5, 5],
+				"PointValues5":[15, 15, 15],
+				"PointValues6":[25, 25, 25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Fanaticism",
+				"Name":"Fanaticism",
+				"ImageOff":"retribution/fanaticism-off.jpg",
+				"ImageOn":"retribution/fanaticism.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of all Judgements capable of a critical hit by [@value]% and reduces threat caused by all actions by [@value2]% except when under the effects of Righteous Fury.",
+				"PointValues":[6, 12, 18],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"SanctifiedWrath",
+				"Name":"Sanctified Wrath",
+				"ImageOff":"retribution/sanctifiedwrath-off.jpg",
+				"ImageOn":"retribution/sanctifiedwrath.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of Hammer of Wrath by [@value]%, reduces the cooldown of Avenging Wrath by [@value2] secs and while affected by Avenging Wrath [@value3]% of all damage caused bypasses damage reduction effects.",
+				"PointValues":[25, 50],
+				"PointValues2":[30, 60],
+				"PointValues3":[25, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SwiftRetribution",
+				"Name":"Swift Retribution",
+				"ImageOff":"retribution/swiftretribution-off.jpg",
+				"ImageOn":"retribution/swiftretribution.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Auras also increases casting, ranged and melee attack speeds by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"CrusaderStrike",
+				"Name":"Crusader Strike",
+				"ImageOff":"retribution/crusaderstrike-off.jpg",
+				"ImageOn":"retribution/crusaderstrike.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"4% of base mana<div style='float:right;'>Melee range</div><br/>Instant Cast<div style='float:right;'>6 sec cooldown</div><br/>Requires Melee Weapon<br/>An instant strike that causes 75% weapon damage.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SheathofLight",
+				"Name":"Sheath of Light",
+				"ImageOff":"retribution/sheathoflight-off.jpg",
+				"ImageOn":"retribution/sheathoflight.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your bonus spell healing by an amount equal to [@value]% of your attack power and your critical healing spells heal the target for [@value2]% of the healed amount over [@value3] seconds.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[5, 10, 15, 20, 25],
+				"PointValues3":[12, 12, 12, 12, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"RighteousVengeance",
+				"Name":"Righteous Vengeance",
+				"ImageOff":"retribution/righteousvengeance-off.jpg",
+				"ImageOn":"retribution/righteousvengeance.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When your Judgement, Cruader Strike and Divine Storm spells deal a critical strike, your target will take [@value]% additional damage over [@value2] sec.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[8, 8, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"DivineStorm",
+				"Name":"Divine Storm",
+				"ImageOff":"retribution/divinestorm-off.jpg",
+				"ImageOn":"retribution/divinestorm.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10% of base mana<div style='float:right;'>Melee range</div><br/>Instant Cast<div style='float:right;'>10 sec cooldown</div><br/>Requires Melee Weapon<br/>An instant weapon attack that causes 110% of weapon damage to up to 4 enemies within 8 yards. The Divine Storm heals up to 3 party or raid members totalling 25% of the damage caused.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

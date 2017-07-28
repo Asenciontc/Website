@@ -1,0 +1,540 @@
+{
+	"BackgroundImage": "holy/background.jpg",
+    "TreeIcon":"Hero13.png",
+    "ClassName":"Priest",
+	"TalentsTiers": 
+    [
+		[
+            {
+				"Id": "HealingFocus",
+				"Name": "Healing Focus",
+				"ImageOff": "holy/healingfocus-off.jpg",
+				"ImageOn": "holy/healingfocus.jpg",
+				"Tier": 1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces the pushback suffered from damaging attacks while casting any Priest healing spell by [@value]%.",
+                "PointValues":[35, 70]
+			},
+			{
+				"Id": "ImprovedRenew",
+				"Name": "Improved Renew",
+				"ImageOff": "holy/improvedrenew-off.jpg",
+				"ImageOn": "holy/improvedrenew.jpg",
+				"Tier": 1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the amount healed by your Renew spell by [@value]%.",
+                "PointValues":[5, 10, 15]
+			},
+			{
+				"Id": "HolySpecialization",
+				"Name": "Holy Specialization",
+				"ImageOff": "holy/holyspecialization-off.jpg",
+				"ImageOn": "holy/holyspecialization.jpg",
+				"Tier": 1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the critical strike damage bonus of your Holy spells by [@value]%.",
+                "PointValues":[20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "SpellWarding",
+				"Name": "Spell Warding",
+				"ImageOff": "holy/spellwarding-off.jpg",
+				"ImageOn": "holy/spellwarding.jpg",
+				"Tier": 2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces all spell damage taken by [@value]%.",
+                "PointValues":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id": "DivineFury",
+				"Name": "Divine Fury",
+				"ImageOff": "holy/divinefury-off.jpg",
+				"ImageOn": "holy/divinefury.jpg",
+				"Tier": 2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by [@value] sec.",
+                		"PointValues":[0.1, 0.2, 0.3, 0.4, 0.5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "DesperatePrayer",
+				"Name": "Desperate Prayer",
+				"ImageOff": "holy/desperateprayer-off.jpg",
+				"ImageOn": "holy/desperateprayer.jpg",
+				"Tier": 3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "16% of base mana<br/>Instant Cast<div style='float:right;'>2 min cooldown</div><br/>Instantly heals the caster for 3716 to 4384.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "BlessedRecovery",
+				"Name": "Blessed Recovery",
+				"ImageOff": "holy/blessedrecovery-off.jpg",
+				"ImageOn": "holy/blessedrecovery.jpg",
+				"Tier": 3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for [@value]% of the damage taken over [@value2] sec. Additional critical hits taken during the effect increase the healing received.",
+                		"PointValues":[5, 10, 15],
+                		"PointValues2":[6, 6, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "Inspiration",
+				"Name": "Inspiration",
+				"ImageOff": "holy/inspiration-off.jpg",
+				"ImageOn": "holy/inspiration.jpg",
+				"Tier": 3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces your target's physical damage taken [@value]% for [@value2] sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, Binding Heal, Penance, Prayer of Mending, Prayer of Healing, or Circle of Healing spell.",
+               			"PointValues":[3, 6, 9],
+                		"PointValues2":[15, 15, 15]
+			}
+        ],
+        [
+			{
+				"Id": "HolyReach",
+				"Name": "Holy Reach",
+				"ImageOff": "holy/holyreach-off.jpg",
+				"ImageOn": "holy/holyreach.jpg",
+				"Tier": 4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing, Holy Nova, Divine Hymm and Circle of Healing spells by [@value]%.",
+				"PointValues": [10, 20]
+			},
+			{
+				"Id": "ImprovedHealing",
+				"Name": "Improved Healing",
+				"ImageOff": "holy/improvedhealing-off.jpg",
+				"ImageOn": "holy/improvedhealing.jpg",
+				"Tier": 4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by [@value]%.",
+                		"PointValues": [5, 10, 15]
+			},
+			{
+				"Id": "SearingLight",
+				"Name": "Searing Light",
+				"ImageOff": "holy/searinglight-off.jpg",
+				"ImageOn": "holy/searinglight.jpg",
+				"Tier": 4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the damage of your Smite, Holy Fire, Holy Nova and Penance spells by [@value]%.",
+                		"PointValues": [4, 8, 12, 16, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "HealingPrayers",
+				"Name": "Healing Prayers",
+				"ImageOff": "holy/healingprayers-off.jpg",
+				"ImageOn": "holy/healingprayers.jpg",
+				"Tier": 5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Reduces the Mana cost of your Prayer of Healing and Prayer of Mending spells by [@value]%.",
+                		"PointValues": [10, 20]
+			},
+			{
+				"Id": "SpiritofRedemption",
+				"Name": "Spirit of Redemption",
+				"ImageOff": "holy/spiritofredemption-off.jpg",
+				"ImageOn": "holy/spiritofredemption.jpg",
+				"Tier": 5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases total Spirit by 5% and upon death, the priest becomes the Spirit of Redemption for 15 sec.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form, the priest can cast any healing spell free of cost.  When the effect ends, the priest dies.",
+                		"PointValues": [0.0]
+			},
+			{
+				"Id": "SpiritualGuidance",
+				"Name": "Spiritual Guidance",
+				"ImageOff": "holy/spiritualguidance-off.jpg",
+				"ImageOn": "holy/spiritualguidance.jpg",
+				"Tier": 5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases spell power by [@value]% of your total Spirit.",
+                		"PointValues": [5, 10, 15, 20, 25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "SurgeofLight",
+				"Name": "Surge of Light",
+				"ImageOff": "holy/surgeoflight-off.jpg",
+				"ImageOn": "holy/surgeoflight.jpg",
+				"Tier": 6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Your spell criticals have a [@value]% chance to cause your next Smite or Flash Heal spell to be instant cast, cost no mana but be incapable of a critical hit. This effect lasts [@value2] sec.",
+				"PointValues": [25, 50],
+				"PointValues2": [10, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "SpiritualHealing",
+				"Name": "Spiritual Healing",
+				"ImageOff": "holy/spiritualhealing-off.jpg",
+				"ImageOn": "holy/spiritualhealing.jpg",
+				"Tier": 6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the amount healed by your healing spells by [@value]%.",
+                		"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "HolyConcentration",
+				"Name": "Holy Concentration",
+				"ImageOff": "holy/holyconcentration-off.jpg",
+				"ImageOn": "holy/holyconcentration.jpg",
+				"Tier": 7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Your mana regeneration from spirit is increased by [@value]% for [@value2] sec after you critically heal with Flash Heal, Greater Heal, Binding Heal or Empowered Renew",
+				"PointValues": [16, 32, 48],
+				"PointValues2": [8, 8, 8]
+			},
+			{
+				"Id": "Lightwell",
+				"Name": "Lightwell",
+				"ImageOff": "holy/lightwell-off.jpg",
+				"ImageOn": "holy/lightwell.jpg",
+				"Tier": 7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "13% of base mana<div style='float:right;'>40 yd range</div><br/>0.5 sec cast<div style='float:right;'>3 min cooldown</div><br/>Creates a Holy Lightwell. Friendly players can click the Lightwell to restore 4620 health over 6 sec. Attacks done to you equal to 30% of your total health will cancel the effect. Lightwell lasts for 3 min or 10 charges.<br/><br/>Talent Has Trainable Ranks",
+                "PointValues": [0.0]
+			},
+			{
+				"Id": "BlessedResilience",
+				"Name": "Blessed Resilience",
+				"ImageOff": "holy/blessedresilience-off.jpg",
+				"ImageOn": "holy/blessedresilience.jpg",
+				"Tier": 7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the effectiveness of your Holy healing spellsby [@value3]% and critical hits made against you have a [@value2]% chance to increase your resillience rating by [@value] per level for [@value4] sec.",
+				"PointValues": [0.5, 0.5, 0.5],
+				"PointValues2": [20, 40, 60],
+				"PointValues3": [1, 2, 3],
+				"PointValues4": [6, 6, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "BodyandSoul",
+				"Name": "Body and Soul",
+				"ImageOff": "holy/bodyandsoul-off.jpg",
+				"ImageOn": "holy/bodyandsoul.jpg",
+				"Tier": 8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "When you cast Power Word: Shield, you increase the target's movement speed by [@value]% for [@value2] sec. and you have a [@value3]% chance when you cast Abolish Disease on yourself to also cleanse [@value4] poison effect in addition to diseases.",
+				"PointValues":[30, 60],
+                		"PointValues2":[4, 4],
+                		"PointValues3":[50, 100],
+                		"PointValues4":[1, 1]
+			},
+			{
+				"Id": "EmpoweredHealing",
+				"Name": "Empowered Healing",
+				"ImageOff": "holy/empoweredhealing-off.jpg",
+				"ImageOn": "holy/empoweredhealing.jpg",
+				"Tier": 8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Your Greater Heal spell gains an additional [@value]% and your Flash Heal and Binding Heal gain an additional [@value2]% of your bonus healing effects.",
+				"PointValues": [8, 16, 24, 32, 40],
+				"PointValues2": [4, 8, 12, 16, 20]
+			},
+			{
+				"Id": "Serendipity",
+				"Name": "Serendipity",
+				"ImageOff": "holy/serendipity-off.jpg",
+				"ImageOn": "holy/serendipity.jpg",
+				"Tier": 8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by [@value]%. Stacks up [@value2] times. Lasts [@value3] sec.",
+				"PointValues": [4, 8, 12],
+				"PointValues2": [3, 3, 3],
+				"PointValues3": [20, 20, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "EmpoweredRenew",
+				"Name": "Empowered Renew",
+				"ImageOff": "holy/empoweredrenew-off.jpg",
+				"ImageOn": "holy/empoweredrenew.jpg",
+				"Tier": 9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Your Renew spell gains an additional [@value]% of your bonus healing effects, and your Renew will instantly heal the target for [@value2]% of the total preiodic effect.",
+				"PointValues": [5, 10, 15],
+				"PointValues2": [5, 10, 15]
+			},
+			{
+				"Id": "CircleofHealing",
+				"Name": "Circle of Healing",
+				"ImageOff": "holy/circleofhealing-off.jpg",
+				"ImageOn": "holy/circleofhealing.jpg",
+				"Tier": 9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "16% of base mana<div style='float:right;'>40 yd range</div><br/>Instant Cast<div style='float:right;'>6 sec cooldown</div><br/>Heals up to 5 friendly party or raid members within 15 yards of the target for 684 to 756. Circle of Healing shares cooldwon with Wild Growth.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "TestofFaith",
+				"Name": "Test of Faith",
+				"ImageOff": "holy/testoffaith-off.jpg",
+				"ImageOn": "holy/testoffaith.jpg",
+				"Tier": 9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases healing by [@value]% on friendly targets at or below [@value2]% health.",
+				"PointValues": [4, 8, 12],
+				"PointValues2": [50, 50, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "DivineProvidence",
+				"Name": "Divine Providence",
+				"ImageOff": "holy/divineprovidence-off.jpg",
+				"ImageOn": "holy/divineprovidence.jpg",
+				"Tier": 10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by [@value]%, and reduces the cooldown of your Prayer of Mending by [@value2]%.",
+				"PointValues": [2, 12, 18, 24, 30],
+				"PointValues2": [6, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "GuardianSpirit",
+				"Name": "Guardian Spirit",
+				"ImageOff": "holy/guardianspirit-off.jpg",
+				"ImageOn": "holy/guardianspirit.jpg",
+				"Tier": 11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description": "4% of base mana<div style='float:right;'>40 yd range</div><br/>Instant Cast<div style='float:right;'>3 min cooldown</div><br/>Calls upon a guardian spirit to watch over the friendly target. The spirit increases the healing received by the target by 40%, and also prevents the target from dying by sacrificing itself. This sacrifice terminates the effect but heals the target of 50% of their maximum health. Lasts 10 sec.",
+				"PointValues": [0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

@@ -1,0 +1,535 @@
+{
+	"BackgroundImage":"combat/background.jpg",
+    "TreeIcon":"Hero16.png",
+    "ClassName":"Rogue",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"ImprovedGouge",
+				"Name":"Improved Gouge",
+				"ImageOff":"combat/improvedgouge-off.jpg",
+				"ImageOn":"combat/improvedgouge.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the effect duration of your Gouge ability by [@value] sec.",
+				"PointValues":[0.5, 1, 1.5]
+			},
+			{
+				"Id":"ImprovedSinisterStrike",
+				"Name":"Improved Sinister Strike",
+				"ImageOff":"combat/improvedsinisterstrike-off.jpg",
+				"ImageOn":"combat/improvedsinisterstrike.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the Energy cost of your Sinister Strike ability by [@value].",
+				"PointValues":[3, 5]
+			},
+			{
+				"Id":"DualWieldSpecialization",
+				"Name":"Dual Wield Specialization",
+				"ImageOff":"combat/dualwieldspecialization-off.jpg",
+				"ImageOn":"combat/dualwieldspecialization.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your offhand weapon by [@value]%.",
+				"PointValues":[10, 20, 30, 40, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedSliceandDice",
+				"Name":"Improved Slice and Dice",
+				"ImageOff":"combat/improvedsliceanddice-off.jpg",
+				"ImageOn":"combat/improvedsliceanddice.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the duration of your Slice and Dice ability by [@value]%.",
+				"PointValues":[25, 50]
+			},
+			{
+				"Id":"Deflection",
+				"Name":"Deflection",
+				"ImageOff":"combat/deflection-off.jpg",
+				"ImageOn":"combat/deflection.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to parry by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Precision",
+				"Name":"Precision",
+				"ImageOff":"combat/precision-off.jpg",
+				"ImageOn":"combat/precision.jpg",
+				"Tier":  2,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to hit with all spells and attacks by [@value]%.",
+				"PointValues":[1, 2, 3, 4, 5]
+			}
+        ],
+        [
+			{
+				"Id":"Endurance",
+				"Name":"Endurance",
+				"ImageOff":"combat/endurance-off.jpg",
+				"ImageOn":"combat/endurance.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Sprint and Evasion abilities by [@value] sec and increases your total Stamina by [@value2]%.",
+				"PointValues":[30, 60],
+				"PointValues2":[2, 4]
+			},
+			{
+				"Id":"Riposte",
+				"Name":"Riposte",
+				"ImageOff":"combat/riposte-off.jpg",
+				"ImageOn":"combat/riposte.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10 Energy<div style='float:right'>Melee Range</div><br/>Instant<div style='float:right'>6 sec cooldown</div><br/>A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and slows their melee attack speed by 20% for 30 sec. Awards 1 combo point.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CloseQuartersCombat",
+				"Name":"Close Quarters Combat",
+				"ImageOff":"combat/closequarterscombat-off.jpg",
+				"ImageOn":"combat/closequarterscombat.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to get a critical strike with Daggers and Fist Weapons by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedKick",
+				"Name":"Improved Kick",
+				"ImageOff":"combat/improvedkick-off.jpg",
+				"ImageOn":"combat/improvedkick.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Kick ability a [@value]% chance to silence the target for [@value2] sec.",
+				"PointValues":[50, 100],
+				"PointValues2":[2, 2]
+			},
+			{
+				"Id":"ImprovedSprint",
+				"Name":"Improved Sprint",
+				"ImageOff":"combat/improvedsprint-off.jpg",
+				"ImageOn":"combat/improvedsprint.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives a [@value]% chance to remove all movement imparing effects when you activate your Sprint ability.",
+				"PointValues":[50, 100]
+			},
+			{
+				"Id":"LightningReflexes",
+				"Name":"Lightning Reflexes",
+				"ImageOff":"combat/lightningreflexes-off.jpg",
+				"ImageOn":"combat/lightningreflexes.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Dodge chance by [@value]% and gives you [@value2]% melee haste.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[1, 2, 3, 4, 5]
+			},
+			{
+				"Id":"Aggression",
+				"Name":"Aggression",
+				"ImageOff":"combat/aggression-off.jpg",
+				"ImageOn":"combat/aggression.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by [@value]%.",
+				"PointValues":[3, 6, 9, 12, 15]
+			}
+        ],
+        [
+			{
+				"Id":"MaceSpecialization",
+				"Name":"Mace Specialization",
+				"ImageOff":"combat/macespecialization-off.jpg",
+				"ImageOn":"combat/macespecialization.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your attacks with maces ignore up to [@value]% of your opponents armor.",
+				"PointValues":[3, 6, 9, 12, 15]
+			},
+			{
+				"Id":"BladeFlurry",
+				"Name":"Blade Flurry",
+				"ImageOff":"combat/bladeflurry-off.jpg",
+				"ImageOn":"combat/bladeflurry.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"25 Energy<br/>Instant<br/>2 min cooldown<br/>Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SwordSpecialization",
+				"Name":"Sword Specialization",
+				"ImageOff":"combat/swordspecialization-off.jpg",
+				"ImageOn":"combat/swordspecialization.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance to get an extra attack on the same target after hitting your target with your One-Handed Sword or One-Handed Axe.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"WeaponExpertise",
+				"Name":"Weapon Expertise",
+				"ImageOff":"combat/weaponexpertise-off.jpg",
+				"ImageOn":"combat/weaponexpertise.jpg",
+				"Tier":  6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your expertise by [@value].",
+				"PointValues":[2, 4]
+			},
+			{
+				"Id":"BladeTwisting",
+				"Name":"Blade Twisting",
+				"ImageOff":"combat/bladetwisting-off.jpg",
+				"ImageOn":"combat/bladetwisting.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage dealt by Sinister Strike and Backstab by [@value]% and your damaging melee attacks have a [@value]% chance to Daze the target for [@value3] sec.",
+				"PointValues":[5, 10],
+				"PointValues2":[10, 10],
+				"PointValues3":[4, 8]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Vitality",
+				"Name":"Vitality",
+				"ImageOff":"combat/vitality-off.jpg",
+				"ImageOn":"combat/vitality.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Energy regeneration rate by [@value]%.",
+				"PointValues":[8, 16, 25]
+			},
+			{
+				"Id":"AdrenalineRush",
+				"Name":"Adrenaline Rush",
+				"ImageOff":"combat/adrenalinerush-off.jpg",
+				"ImageOn":"combat/adrenalinerush.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"3 min cooldown<br/>Increases your Energy regeneration rate by 100% for 15 sec. This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"NervesofSteel",
+				"Name":"Nerves of Steel",
+				"ImageOff":"combat/nervesofsteel-off.jpg",
+				"ImageOn":"combat/nervesofsteel.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the damage taken while affected by Stun and Fear effects by [@value]%.",
+				"PointValues":[3, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ThrowingSpecialization",
+				"Name":"Throwing Specialization",
+				"ImageOff":"combat/throwingspecialization-off.jpg",
+				"ImageOn":"combat/throwingspecialization.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of Throw and Deadly Throw by [@value] yards and gives your Deadly Throw and Fan of Knives abilities a [@value2]% chance to interrupt the target for [@value3] sec.",
+				"PointValues":[2, 4],
+				"PointValues2":[50, 100],
+				"PointValues3":[3, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"CombatPotency",
+				"Name":"Combat Potency",
+				"ImageOff":"combat/combatpotency-off.jpg",
+				"ImageOn":"combat/combatpotency.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your successful off-hand melee attacks a [@value]% chance to generate [@value2] Energy.",
+				"PointValues":[20, 20, 20, 20, 20],
+				"PointValues2":[3, 6, 9, 12, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"UnfairAdvantage",
+				"Name":"Unfair Advantage",
+				"ImageOff":"combat/unfairadvantage-off.jpg",
+				"ImageOn":"combat/unfairadvantage.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Whenever you dodge an attack you gain an Unfair Advantage, striking back for [@value]% of your main hand weapon's damage. This cannot occur more than once per second.",
+				"PointValues":[50, 100]
+			},
+			{
+				"Id":"SurpriseAttacks",
+				"Name":"Surprise Attacks",
+				"ImageOff":"combat/surpriseattacks-off.jpg",
+				"ImageOn":"combat/surpriseattacks.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your finishing moves can no longer be dodged, and the damage dealt by your Sinister Strike, Backstab, Shiv, Hemorrhage and Gouge abilities is increased by 10%.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SavageCombat",
+				"Name":"Savage Combat",
+				"ImageOff":"combat/savagecombat-off.jpg",
+				"ImageOn":"combat/savagecombat.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total attack power by [@value]% and all physical damage caused to enemies you have poisoned is increased by [@value2]%.",
+				"PointValues":[2, 4],
+				"PointValues2":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"PreyontheWeak",
+				"Name":"Prey on the Weak",
+				"ImageOff":"combat/preyontheweak-off.jpg",
+				"ImageOn":"combat/preyontheweak.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your critical strike damage is increased by [@value]% when the target has less health than you (as a percentage of total health).",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"KillingSpree",
+				"Name":"Killing Spree",
+				"ImageOff":"combat/killingspree-off.jpg",
+				"ImageOn":"combat/killingspree.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10 yd range<br/>Instant<br/>2 min cooldown<br/>Step through the shadows from enemy to enemy within 10 yards, attacking an enemy every .5 secs with both weapons until 5 assaults are made. Can hit the same target multiple times. Cannot hit invisible or stealthed targets.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

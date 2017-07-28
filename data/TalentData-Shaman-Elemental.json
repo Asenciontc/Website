@@ -1,0 +1,531 @@
+{
+	"BackgroundImage":"elemental/background.jpg",
+    "TreeIcon":"Hero18.png",
+    "ClassName":"Shaman",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Convection",
+				"Name":"Convection",
+				"ImageOff":"elemental/convection-off.jpg",
+				"ImageOn":"elemental/convection.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst and Wind Shear spells by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id":"Concussion",
+				"Name":"Concussion",
+				"ImageOff":"elemental/concussion-off.jpg",
+				"ImageOn":"elemental/concussion.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"CallofFlame",
+				"Name":"Call of Flame",
+				"ImageOff":"elemental/callofflame-off.jpg",
+				"ImageOn":"elemental/callofflame.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Fire Totems and Fire Nova by [@value]%, and damage done by your Lava Burst spell by [@value2]%.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[2, 4, 6]
+			},
+			{
+				"Id":"ElementalWarding",
+				"Name":"Elemental Warding",
+				"ImageOff":"elemental/elementalwarding-off.jpg",
+				"ImageOn":"elemental/elementalwarding.jpg",
+				"Tier":  2 ,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces all damage taken by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"ElementalDevastation",
+				"Name":"Elemental Devastation",
+				"ImageOff":"elemental/elementaldevastation-off.jpg",
+				"ImageOn":"elemental/elementaldevastation.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by [@value]% for 10 sec.",
+				"PointValues":[3, 6, 9]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Reverberation",
+				"Name":"Reverberation",
+				"ImageOff":"elemental/reverberation-off.jpg",
+				"ImageOn":"elemental/reverberation.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Shock spells and Wind Shear by [@value] sec.",
+				"PointValues":[0.2, 0.4, 0.6, 0.8, 1]
+			},
+			{
+				"Id":"ElementalFocus",
+				"Name":"Elemental Focus",
+				"ImageOff":"elemental/elementalfocus-off.jpg",
+				"ImageOn":"elemental/elementalfocus.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"After landing a critical strike with a Fire, Frost, or Nature damage spell, you enter a Clearcasting state.  The Clearcasting state reduces the mana cost of your next 2 damage or healing spells by 20%.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ElementalFury",
+				"Name":"Elemental Fury",
+				"ImageOff":"elemental/elementalfury-off.jpg",
+				"ImageOn":"elemental/elementalfury.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature shaman spells by [@value]%.",
+				"PointValues":[20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedFireNovaTotem",
+				"Name":"Improved Fire Nova Totem",
+				"ImageOff":"elemental/improvedfirenovatotem-off.jpg",
+				"ImageOn":"elemental/improvedfirenovatotem.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Fire Nova by [@value]% and reduces the cooldown by [@value2] sec.",
+				"PointValues":[10, 20],
+				"PointValues2":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EyeoftheStorm",
+				"Name":"Eye of the Storm",
+				"ImageOff":"elemental/eyeofthestorm-off.jpg",
+				"ImageOn":"elemental/eyeofthestorm.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, Lava Burst and Hex spells by [@value]%.",
+				"PointValues":[23, 46, 70]
+			}
+        ],
+        [
+			{
+				"Id":"ElementalReach",
+				"Name":"Elemental Reach",
+				"ImageOff":"elemental/elementalreach-off.jpg",
+				"ImageOn":"elemental/elementalreach.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova and Lava Burst spells by [@value] yards, increases the radius of your Thunderstorm spell by [@value2]% and increases the the range of your Flame Shock by [@value3] yards.",
+				"PointValues":[3, 6],
+				"PointValues2":[10, 20],
+				"PointValues3":[7, 14]
+			},
+			{
+				"Id":"CallofThunder",
+				"Name":"Call of Thunder",
+				"ImageOff":"elemental/callofthunder-off.jpg",
+				"ImageOn":"elemental/callofthunder.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Lightning Bolt, Chain Lightning and Thunderstorm spells by an additional 5%.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"UnrelentingStorm",
+				"Name":"Unrelenting Storm",
+				"ImageOff":"elemental/unrelentingstorm-off.jpg",
+				"ImageOn":"elemental/unrelentingstorm.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Regenerate mana equal to [@value]% of your Intellect every 5 sec, even while casting. Also increases your spell hit chance by [@value2]%.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[1, 2, 3]
+			}
+        ],
+        [
+			{
+				"Id":"ElementalPrecision",
+				"Name":"Elemental Precision",
+				"ImageOff":"elemental/elementalprecision-off.jpg",
+				"ImageOn":"elemental/elementalprecision.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to hit with shaman Fire, Frost, and Nature spells by [@value]% and reduces the threat caused by shaman based Fire, Frost, and Nature spells by [@value2]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[10, 20, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"LightningMastery",
+				"Name":"Lightning Mastery",
+				"ImageOff":"elemental/lightningmastery-off.jpg",
+				"ImageOn":"elemental/lightningmastery.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by [@value] sec.",
+				"PointValues":[0.1, 0.2, 0.3, 0.4, 0.5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ElementalMastery",
+				"Name":"Elemental Mastery",
+				"ImageOff":"elemental/elementalmastery-off.jpg",
+				"ImageOn":"elemental/elementalmastery.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>3 min cooldown</div><br/>When activated, your next LKightning Bolt, Chain Lightning or Lava Burst spell becomes an instant cast spell. In addition you gain 15% spell haste for 15 sec. Elemental Mastery shares cooldown with Nature's Swiftness.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"StormEarthandFire",
+				"Name":"Storm Earth and Fire",
+				"ImageOff":"elemental/storm,earthandfire-off.jpg",
+				"ImageOn":"elemental/storm,earthandfire.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Chain Lightning spell by [@value] sec, your Earthbind Totem also has a [@value2]% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by [@value3]%.",
+				"PointValues":[0.75, 1.5, 2.5],
+				"PointValues2":[33, 66, 100],
+				"PointValues3":[20, 40, 60]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"BoomingEchoes",
+				"Name":"Booming Echoes",
+				"ImageOff":"elemental/boomingechoes-off.jpg",
+				"ImageOn":"elemental/boomingechoes.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Flame Shock and Frost Shock spells by an additional [@value] sec., and increases the direct damage done by your Flame Shock and Frost Shock spells by an additional [@value2]%.",
+				"PointValues":[1, 2],
+				"PointValues2":[5, 10]
+			},
+			{
+				"Id":"ElementalOath",
+				"Name":"Elemental Oath",
+				"ImageOff":"elemental/elementaloath-off.jpg",
+				"ImageOn":"elemental/elementaloath.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While clearcasting from Elemental Focus is active you deal [@value]% more damage with fire nature and frost spells. In addition, party or raid members within 100 yards receive a 3% bonus to their spell critical strike chance.",
+				"PointValues":[5, 10]
+			},
+			{
+				"Id":"LightningOverload",
+				"Name":"Lightning Overload",
+				"ImageOff":"elemental/lightningoverload-off.jpg",
+				"ImageOn":"elemental/lightningoverload.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Lightning Bolt and Chain Lightning spells a [@value]% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+				"PointValues":[11, 22, 33]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"AstralShift",
+				"Name":"Astral Shift",
+				"ImageOff":"elemental/astralshift-off.jpg",
+				"ImageOn":"elemental/astralshift.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When stunned, feared or silenced you shift into the Astral Plane reducing all damage taken by [@value]% for the duration of the stun, fear or silence effect.",
+				"PointValues":[3, 6, 9]
+			},
+			{
+				"Id":"TotemofWrath",
+				"Name":"Totem of Wrath",
+				"ImageOff":"elemental/totemofwrath-off.jpg",
+				"ImageOn":"elemental/totemofwrath.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"5% of base mana<br>Instant cast<br>Tools: Fire Totem<br>Summons a Totem of Wrath with 5 health at the feet of the caster. The totem increases the spell power by 50 for all party and raid members, and increases the critical strike chance of spells and effects by 3% against all enemies within 40 yards. Lasts 5 min.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"LavaFlows",
+				"Name":"Lava Flows",
+				"ImageOff":"elemental/lavaflows-off.jpg",
+				"ImageOn":"elemental/lavaflows.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of your Lava Burst spell by an additional [@value]% and when your Flame Shock is dispelled your spell casting speed is increased by [@value2]% for 6 sec.",
+				"PointValues":[6, 12, 24],
+				"PointValues2":[10, 20, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"shamanism",
+				"Name":"Shamanism",
+				"ImageOff":"elemental/shamanism-off.jpg",
+				"ImageOn":"elemental/shamanism.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Lightning Bolt and Chain Lightning spells gain an additional [@value]% and your Lava Burst gains an additional [@value2]% of your bonus damage effects.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[5, 10, 15, 20, 25]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Thunderstorm",
+				"Name":"Thunderstorm",
+				"ImageOff":"elemental/thunderstorm-off.jpg",
+				"ImageOn":"elemental/thunderstorm.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>45 sec cooldown</div><br/>You call down a bolt of lightning, energizing you and damaging nearby enemies within 10 yards. Restores 8% mana to you and deals 566 to 644 Nature damage to all nearby enemies, knocking them back 20 yards. This spell is usable while stunned.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

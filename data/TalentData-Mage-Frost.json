@@ -1,0 +1,559 @@
+{
+	"BackgroundImage":"frost/background.jpg",
+    "TreeIcon":"Hero8.png",
+    "ClassName":"Mage",
+	"TalentsTiers":
+	[
+		[
+			{
+				"Id":"Frostbite",
+				"Name":"Frostbite",
+				"ImageOff":"frost/frostbite-off.jpg",
+				"ImageOn":"frost/frostbite.jpg",
+				"Tier":  1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Chill effects a [@value]% chance to freeze the target for [@value2] sec.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[5, 5, 5]
+			},
+			{
+				"Id":"ImprovedFrostbolt",
+				"Name":"Improved Frostbolt",
+				"ImageOff":"frost/improvedfrostbolt-off.jpg",
+				"ImageOn":"frost/improvedfrostbolt.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the casting time of your Frostbolt spell by [@value] sec.",
+				"PointValues":[0.1, 0.2, 0.3, 0.4, 0.5]
+			},
+			{
+				"Id":"IceFloes",
+				"Name":"Ice Floes",
+				"ImageOff":"frost/icefloes-off.jpg",
+				"ImageOn":"frost/icefloes.jpg",
+				"Tier":  1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by [@value]%.",
+				"PointValues":[7, 14, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"IceShards",
+				"Name":"Ice Shards",
+				"ImageOff":"frost/iceshards-off.jpg",
+				"ImageOn":"frost/iceshards.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of your Mage Frost spells by [@value]%.",
+				"PointValues":[33, 66, 100]
+			},
+			{
+				"Id":"FrostWarding",
+				"Name":"Frost Warding",
+				"ImageOff":"frost/frostwarding-off.jpg",
+				"ImageOn":"frost/frostwarding.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the armor and resistances given by your Frost Armor and Ice Armor spells by [@value]%. In addition, gives your Frost Ward and Fire Ward a [@value2]% chance to negate the warded damage spell and restore mana equal to the damage caused.",
+				"PointValues":[25, 50],
+				"PointValues2":[15, 30]
+			},
+			{
+				"Id":"ElementalPrecision",
+				"Name":"Elemental Precision",
+				"ImageOff":"frost/elementalprecision-off.jpg",
+				"ImageOn":"frost/elementalprecision.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost and increases your chance to hit with spells by [@value]%.",
+				"PointValues":[1, 2, 3]
+			},
+			{
+				"Id":"Permafrost",
+				"Name":"Permafrost",
+				"ImageOff":"frost/permafrost-off.jpg",
+				"ImageOn":"frost/permafrost.jpg",
+				"Tier":  2,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the duration of your Chill effects by [@value] sec and reduces the target's speed by an additional [@value2]% and reduces the targets healing received by [@value3]%.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[4, 7, 10],
+				"PointValues3":[17, 33, 50]
+			}
+        ],
+        [
+			{
+				"Id":"PiercingIce",
+				"Name":"Piercing Ice",
+				"ImageOff":"frost/piercingice-off.jpg",
+				"ImageOn":"frost/piercingice.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Mage Frost spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"IcyVeins",
+				"Name":"Icy Veins",
+				"ImageOff":"frost/icyveins-off.jpg",
+				"ImageOn":"frost/icyveins.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"2% of base mana<br/>Instant<div style='float:right;'>3 min cooldown</div><br/>Hastens your spellcasting, increasing spell casting speed by 20% and reduces the pushback suffered from damaging attacks while casting mage spells by 100%. Lasts 20 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedBlizzard",
+				"Name":"Improved Blizzard",
+				"ImageOff":"frost/improvedblizzard-off.jpg",
+				"ImageOn":"frost/improvedblizzard.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Adds a chill effect to your Blizzard spell. This effect lowers the target's movement speed by [@value2]%. Lasts [@value][@value3] sec.",
+				"PointValues":[1.5, 1.5, 1.5],
+				"PointValues2":[25, 40, 50],
+				"PointValues3":[0, 0, 0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ArcticReach",
+				"Name":"Arctic Reach",
+				"ImageOff":"frost/arcticreach-off.jpg",
+				"ImageOn":"frost/arcticreach.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Frostbolt, Ice Lance, Deep Freeze and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by [@value]%.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"FrostChanneling",
+				"Name":"Frost Channeling",
+				"ImageOff":"frost/frostchanneling-off.jpg",
+				"ImageOn":"frost/frostchanneling.jpg",
+				"Tier":  4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of all spells by [@value]% and reduces the threat caused by your Frost spells by [@value2]%.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[4, 7, 10]
+			},
+			{
+				"Id":"Shatter",
+				"Name":"Shatter",
+				"ImageOff":"frost/shatter-off.jpg",
+				"ImageOn":"frost/shatter.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of all your Mage spells against frozen targets by [@value]%.",
+				"PointValues":[17, 34, 50]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ColdSnap",
+				"Name":"Cold Snap",
+				"ImageOff":"frost/coldsnap-off.jpg",
+				"ImageOn":"frost/coldsnap.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant Cast<div style='float:right;'>8 min cooldown</div><br/>When activated, this spell finishes the cooldown on all Frost Mage spells you recently cast.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedConeofCold",
+				"Name":"Improved Cone of Cold",
+				"ImageOff":"frost/improvedconeofcold-off.jpg",
+				"ImageOn":"frost/improvedconeofcold.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage dealt by your Cone of Cold spell by [@value]%.",
+				"PointValues":[15, 25, 35]
+			},
+			{
+				"Id":"FrozenCore",
+				"Name":"Frozen Core",
+				"ImageOff":"frost/frozencore-off.jpg",
+				"ImageOn":"frost/frozencore.jpg",
+				"Tier":  5,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the damage taken from all spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ColdasIce",
+				"Name":"Cold as Ice",
+				"ImageOff":"frost/coldasice-off.jpg",
+				"ImageOn":"frost/coldasice.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Cold Snap, Ice Barrier, Deep Freeze and Summon Water Elemental spells by [@value]%.",
+				"PointValues":[10, 20]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"WintersChill",
+				"Name":"Winters Chill",
+				"ImageOff":"frost/winterschill-off.jpg",
+				"ImageOn":"frost/winterschill.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to critically hit with Frostbolt by an additional [@value]% and gives your Frost damage spells a [@value2]% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by [@value3]% for [@value4] sec. Stacks up to [@value5] times.",
+				"PointValues":[1, 2, 3],
+                		"PointValues2":[33, 66, 100],
+				"PointValues3":[1, 1, 1],
+                		"PointValues4":[15, 15, 15],
+				"PointValues5":[5, 5, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ShatteredBarrier",
+				"Name":"Shattered Barrier",
+				"ImageOff":"frost/shatteredbarrier-off.jpg",
+				"ImageOn":"frost/shatteredbarrier.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Ice Barrier spell a [@value]% chance to freeze all enemies within [@value2] yds for [@value3] sec when it is destroyed.",
+				"PointValues":[50, 100],
+				"PointValues2":[10, 10],
+				"PointValues3":[8, 8]
+			},
+			{
+				"Id":"IceBarrier",
+				"Name":"Ice Barrier",
+				"ImageOff":"frost/icebarrier-off.jpg",
+				"ImageOn":"frost/icebarrier.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"16% of base mana<br/>Instant Cast<div style='float:right;'>30 sec cooldown</div><br/>Instantly shields you, absorbing 3300 damage. Lasts 1 min. While the shield holds, spellcasting will not be delayed by damage.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ArcticWinds",
+				"Name":"Arctic Winds",
+				"ImageOff":"frost/arcticwinds-off.jpg",
+				"ImageOn":"frost/arcticwinds.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all Frost damage you cause by [@value]% and reduces the chance melee and ranged attacks will hit you by [@value2]%.",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EmpoweredFrostbolt",
+				"Name":"Empowered Frostbolt",
+				"ImageOff":"frost/empoweredfrostbolt-off.jpg",
+				"ImageOn":"frost/empoweredfrostbolt.jpg",
+				"Tier":  8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage of your Frostbolt spell by an amount equal to [@value2]% of your spell power and reduces the cast time by [@value] sec.",
+				"PointValues":[0.1, 0.2, 0.3],
+				"PointValues2":[5, 10, 15]
+			},
+			{
+				"Id":"FingersofFrost",
+				"Name":"Fingers of Frost",
+				"ImageOff":"frost/fingersoffrost-off.jpg",
+				"ImageOn":"frost/fingersoffrost.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Chill effects a [@value]% chance to grant you the Fingers of Frost effect, which treats your next [@value2] spells cast as if the target were Frozen. Lasts [@value3] sec.",
+				"PointValues":[7, 15],
+				"PointValues2":[2, 2],
+				"PointValues3":[15, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"BrainFreeze",
+				"Name":"Brain Freeze",
+				"ImageOff":"frost/brainfreeze-off.jpg",
+				"ImageOn":"frost/brainfreeze.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Mage Frost damage spells have a [@value]% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana.",
+				"PointValues":[5, 10, 15]
+			},
+			{
+				"Id":"SummonWaterElemental",
+				"Name":"Summon Water Elemental",
+				"ImageOff":"frost/summonwaterelemental-off.jpg",
+				"ImageOn":"frost/summonwaterelemental.jpg",
+				"Tier":  9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"16% of base mana<br/>Instant Cast<div style='float:right;'>3 min cooldown</div><br/>Summon a Water Elemental to fight for the caster for 45 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedWaterElemental",
+				"Name":"Improved Water Elemental",
+				"ImageOff":"frost/improvedwaterelemental-off.jpg",
+				"ImageOn":"frost/improvedwaterelemental.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the duration of your Summon Water Elemental spell by [@value] sec and your Frost Bolt spell has a [@value2]% chance to grant up to [@value3] party or raid members mana regeneration equal to [@value4]% of their total mana every 5 sec for [@value5] sec. This effect cannot occur more often than once every [@value6] sec.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[33, 66, 100],
+				"PointValues3":[10, 10, 10],
+				"PointValues4":[1, 1, 1],
+				"PointValues5":[5, 5, 5],
+				"PointValues6":[15, 15, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ChilledtotheBone",
+				"Name":"Chilled to the Bone",
+				"ImageOff":"frost/chilledtothebone-off.jpg",
+				"ImageOn":"frost/chilledtothebone.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by [@value]% and reduces the movement speed of all chilled targets by an additional [@value2]%",
+				"PointValues":[1, 2, 3, 4, 5],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"DeepFreeze",
+				"Name":"Deep Freeze",
+				"ImageOff":"frost/deepfreeze-off.jpg",
+				"ImageOn":"frost/deepfreeze.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"7% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<div style='float:right;'>30 sec cooldown</div><br/>Stuns the target for 5 sec. Only usable on Frozen targets. Deals 1469 to 1741 damage to targets permanently immune to stuns.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

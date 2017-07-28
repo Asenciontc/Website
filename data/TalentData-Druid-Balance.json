@@ -1,0 +1,554 @@
+{
+	"BackgroundImage":"balance/background.jpg",
+    "TreeIcon":"Hero0.png",
+    "ClassName":"Druid",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 1,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"StarlightWrath",
+				"Name":"Starlight Wrath",
+				"ImageOff":"balance/starlightwrath-off.jpg",
+				"ImageOn":"balance/starlightwrath.jpg",
+				"Tier": 1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cast time of your Wrath and Starfire spells by [@value] sec.",
+				"PointValues":[0.1, 0.2, 0.3, 0.4, 0.5]
+			},
+			{
+				"Id":"Genesis",
+				"Name":"Genesis",
+				"ImageOff":"balance/genesis-off.jpg",
+				"ImageOn":"balance/genesis.jpg",
+				"Tier": 1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage and healing done by your periodic damage and healing effects by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 1,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Moonglow",
+				"Name":"Moonglow",
+				"ImageOff":"balance/moonglow-off.jpg",
+				"ImageOn":"balance/moonglow.jpg",
+				"Tier": 2,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by [@value]%.",
+				"PointValues":[3, 6, 9]
+			},
+			{
+				"Id":"NaturesMajesty",
+				"Name":"Natures Majesty",
+				"ImageOff":"balance/naturesmajesty-off.jpg",
+				"ImageOn":"balance/naturesmajesty.jpg",
+				"Tier": 2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike chance of your Wrath, Starfire, Starfall, Nourish and Healing Touch spells by [@value]%.",
+				"PointValues":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 2,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedMoonfire",
+				"Name":"Improved Moonfire",
+				"ImageOff":"balance/improvedmoonfire-off.jpg",
+				"ImageOn":"balance/improvedmoonfire.jpg",
+				"Tier": 2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage and critical strike chance of your Moonfire spell by [@value]%.",
+				"PointValues":[5, 10]
+			}
+        ],
+        [
+			{
+				"Id":"Brambles",
+				"Name":"Brambles",
+				"ImageOff":"balance/brambles-off.jpg",
+				"ImageOn":"balance/brambles.jpg",
+				"Tier": 3,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Damage from your Thorns and Entangling Roots increased by [@value]% and damage done by your Treants increased by [@value2]%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a [@value3]% chance to daze the target for [@value4] sec.",
+				"PointValues":[25, 50, 75],
+				"PointValues2":[5, 10, 15],
+				"PointValues3":[5, 10, 15],
+				"PointValues4":[3, 3, 3]
+			},
+			{
+				"Id":"NaturesGrace",
+				"Name":"Natures Grace",
+				"ImageOff":"balance/naturesgrace-off.jpg",
+				"ImageOn":"balance/naturesgrace.jpg",
+				"Tier": 3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All non-periodic Druid spell criticals have a [@value]% chance to grace you with a blessing of nature, increasing your spell haste by [@value2]% for [@value3] sec.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[20, 20, 20],
+				"PointValues3":[3, 3, 3]
+			},
+			{
+				"Id":"NaturesSplendor",
+				"Name":"Natures Splendor",
+				"ImageOff":"balance/naturessplendor-off.jpg",
+				"ImageOn":"balance/naturessplendor.jpg",
+				"Tier": 3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the duration of your Moonfire and Rejuvenation spells by 3 sec, your Regrowth spell by 6 sec, and your Insect Swarm and Lifebloom spells by 2 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"NaturesReach",
+				"Name":"Natures Reach",
+				"ImageOff":"balance/naturesreach-off.jpg",
+				"ImageOn":"balance/naturesreach.jpg",
+				"Tier": 3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Balance spells and Faerie Fire (Feral) ability by [@value]%, and reduces the threat generated by your Balance spells by [@value2]%.",
+				"PointValues":[10, 20],
+				"PointValues2":[15, 30]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 4,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Vengeance",
+				"Name":"Vengeance",
+				"ImageOff":"balance/vengeance-off.jpg",
+				"ImageOn":"balance/vengeance.jpg",
+				"Tier": 4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by [@value]%.",
+				"PointValues":[20, 40, 60, 80, 100]
+			},
+			{
+				"Id":"CelestialFocus",
+				"Name":"Celestial Focus",
+				"ImageOff":"balance/celestialfocus-off.jpg",
+				"ImageOn":"balance/celestialfocus.jpg",
+				"Tier": 4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reducing the pushback suffered from damaging attacks while casting Starfire, Hibernate, and Hurricane by [@value]% and increases your total spell haste by [@value2]%.",
+				"PointValues":[23, 46, 69],
+				"PointValues2":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 4,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"LunarGuidance",
+				"Name":"Lunar Guidance",
+				"ImageOff":"balance/lunarguidance-off.jpg",
+				"ImageOn":"balance/lunarguidance.jpg",
+				"Tier": 5,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your spell power by [@value]% of your total Intellect.",
+				"PointValues":[2, 4, 6]
+			},
+			{
+				"Id":"InsectSwarm",
+				"Name":"Insect Swarm",
+				"ImageOff":"balance/insectswarm-off.jpg",
+				"ImageOn":"balance/insectswarm.jpg",
+				"Tier": 5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+                		"IsAbility":"true",
+				"Description":"6% of base mana<div style='float:right;'>30 yd range</div><br/>Instant Cast<br/>The enemy target is swarmed by insects, decreasing their chance to hit with melee and ranged attacks by 3% and causing 1290 Nature damage over 12 sec.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedInsectSwarm",
+				"Name":"Improved Insect Swarm",
+				"ImageOff":"balance/improvedinsectswarm-off.jpg",
+				"ImageOn":"balance/improvedinsectswarm.jpg",
+				"Tier": 5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your damage done by your Wrath spell to targets afflicted by your Insect Swarm by [@value]%, and increases the critical strike chance of your Starfire spell by [@value2]% on targets afflicted by your Moonfire spell.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 5,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Dreamstate",
+				"Name":"Dreamstate",
+				"ImageOff":"balance/dreamstate-off.jpg",
+				"ImageOn":"balance/dreamstate.jpg",
+				"Tier": 6,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Regenerate mana equal to [@value]% of your Intellect every [@value2] sec. even while casting, also increases your spell crit chance by [@value3]%.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[5, 5, 5],
+				"PointValues3":[1, 2, 3]
+			},
+			{
+				"Id":"Moonfury",
+				"Name":"Moonfury",
+				"ImageOff":"balance/moonfury-off.jpg",
+				"ImageOn":"balance/moonfury.jpg",
+				"Tier": 6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Starfire, Moonfire and Wrath spells by [@value]%.",
+				"PointValues":[3, 6, 10]
+			},
+			{
+				"Id":"BalanceofPower",
+				"Name":"Balance of Power",
+				"ImageOff":"balance/balanceofpower-off.jpg",
+				"ImageOn":"balance/balanceofpower.jpg",
+				"Tier": 6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your chance to hit with all spells by [@value]% and reduces your damage taken from all spells by [@value2]%.",
+				"PointValues":[2, 4],
+				"PointValues2":[3, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 6,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 7,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"MoonkinForm",
+				"Name":"Moonkin Form",
+				"ImageOff":"balance/moonkinform-off.jpg",
+				"ImageOn":"balance/moonkinform.jpg",
+				"Tier": 7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"7% of base mana<br/>Instant Cast<br/>Shapeshift into Moonkin Form. While in this form the armor contribution from cloth and leather items is increased by 370%, damage taken while stunned is reduced by 15% and all party members within 100 yards have their spell critical chance increased by 5%. Single target spell critical strikes in this form have a chance to instantly regenerate 2% of your total mana. The Moonkin can not cast healing spells while shapeshifted.<br><br>The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedMoonkinForm",
+				"Name":"Improved Moonkin Form",
+				"ImageOff":"balance/improvedmoonkinform-off.jpg",
+				"ImageOn":"balance/improvedmoonkinform.jpg",
+				"Tier": 7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Moonkin Aura also causes affected targets to gain [@value]% haste and you to gain [@value2]% of your spirit as additional spell damage.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"ImprovedFaerieFire",
+				"Name":"Improved Faerie Fire",
+				"ImageOff":"balance/improvedfaeriefire-off.jpg",
+				"ImageOn":"balance/improvedfaeriefire.jpg",
+				"Tier": 7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by [@value]%, and increases the critical strike chance of your damage spells by [@value2]% on targets afflicted by Faerie Fire.",
+				"PointValues":[1, 2, 3],
+				"PointValues2":[1, 2, 3]
+			}
+        ],
+        [
+			{
+				"Id":"OwlkinFrenzy",
+				"Name":"Owlkin Frenzy",
+				"ImageOff":"balance/owlkinfrenzy-off.jpg",
+				"ImageOn":"balance/owlkinfrenzy.jpg",
+				"Tier": 8,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Attacks done to you while in Moonkin form have a [@value]% chance to cause you to go into a Frenzy, increasing your arcane and nature damage by [@value2]% and causes you to be immune to pushback while casting Balance spells and restores [@value3]% base mana every [@value4] sec. Lasts [@value5] sec.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[10, 10, 10],
+				"PointValues3":[2, 2, 2],
+				"PointValues4":[2, 2, 2],
+				"PointValues5":[10, 10, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 8,
+				"DisplayColumn": 1,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"WrathofCenarius",
+				"Name":"Wrath of Cenarius",
+				"ImageOff":"balance/wrathofcenarius-off.jpg",
+				"ImageOn":"balance/wrathofcenarius.jpg",
+				"Tier": 8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Starfire spell gains an additional [@value]% and your Wrath gains an additional [@value2]% of your bonus damage effects.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 8,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"Eclipse",
+				"Name":"Eclipse",
+				"ImageOff":"balance/eclipse-off.jpg",
+				"ImageOn":"balance/eclipse.jpg",
+				"Tier": 9,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"When you critically hit with Starfire, you have a [@value]% chance of increasing damage done by Wrath by [@value2]%. When you critically hit with Wrath, you have a [@value3]% chance of increasing your critical strike chance with Starfire by [@value4]%. Effect lasts [@value5] sec and has a [@value6] sec cooldown.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[40, 40, 40],
+				"PointValues3":[20, 40, 60],
+				"PointValues4":[20, 20, 20],
+				"PointValues5":[15, 15, 15],
+				"PointValues6":[30, 30, 30]
+			},
+			{
+				"Id":"Typhoon",
+				"Name":"Typhoon",
+				"ImageOff":"balance/typhoon-off.jpg",
+				"ImageOn":"balance/typhoon.jpg",
+				"Tier": 9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"20% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right;'>20 sec cooldown</div><br/>You summon a violent Typhoon that does 1190 Nature damage when in contact with hostile targets, knocking them back and dazing them for 6 sec.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ForceofNature",
+				"Name":"Force of Nature",
+				"ImageOff":"balance/forceofnature-off.jpg",
+				"ImageOn":"balance/forceofnature.jpg",
+				"Tier": 9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"10% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right'>3 min cooldown</div><br/>Summons 3 treants to attack the enemy target for 30 sec.<br><br>This ability is usable while shapeshifted.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"GaleWinds",
+				"Name":"Gale Winds",
+				"ImageOff":"balance/galewinds-off.jpg",
+				"ImageOn":"balance/galewinds.jpg",
+				"Tier": 9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases damage done by your Hurricane and Typhoon spells by [@value]%, and increases the range of your Cyclone spell by [@value2] yards.",
+				"PointValues":[15, 30],
+				"PointValues2":[2, 4]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 10,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"EarthandMoon",
+				"Name":"Earth and Moon",
+				"ImageOff":"balance/earthandmoon-off.jpg",
+				"ImageOn":"balance/earthandmoon.jpg",
+				"Tier": 10,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Wrath and Starfire spells have a [@value]% chance to apply the Earth and Moon effect, which increases spell damage taken by [@value2]% for [@value3] sec. Also increases your spell damage by [@value4]%.",
+				"PointValues":[100, 100, 100],
+				"PointValues2":[4, 9, 13],
+				"PointValues3":[12, 12, 12],
+				"PointValues4":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 10,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 10,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Starfall",
+				"Name":"Starfall",
+				"ImageOff":"balance/starfall-off.jpg",
+				"ImageOn":"balance/starfall.jpg",
+				"Tier": 11,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"28% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right'>1.5 min cooldown</div><br/>You summon a flurry of stars from the sky on all targets within 30 yards of the caster, each dealing 433 to 503 Arcane damage. Also causes 78 Arcane damage to all nearby targets within 5 yards of the enemy target. Maximum 20 stars. Lasts 10 sec.<br>Shapeshifting into an animal form or mounting cancels the effect. Any effect which causes you to loose control of your character will suppress the starfall effect.<br><br>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

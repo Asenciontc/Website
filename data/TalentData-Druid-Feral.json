@@ -1,0 +1,557 @@
+{
+	"BackgroundImage":"feralcombat/background.jpg",
+    "TreeIcon":"Hero1.png",
+    "ClassName":"Druid",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 1,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Ferocity",
+				"Name":"Ferocity",
+				"ImageOff":"feralcombat/ferocity-off.jpg",
+				"ImageOn":"feralcombat/ferocity.jpg",
+				"Tier": 1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by [@value] Rage or Energy.",
+				"PointValues":[1, 2, 3, 4, 5]
+			},
+			{
+				"Id":"FeralAggression",
+				"Name":"Feral Aggression",
+				"ImageOff":"feralcombat/feralaggression-off.jpg",
+				"ImageOn":"feralcombat/feralaggression.jpg",
+				"Tier": 1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the Attack Power reduction of your Demoralizing Roar by [@value]% and the damage caused by your Ferocious Bite by [@value2]%.",
+				"PointValues":[8, 16, 24, 32, 40],
+				"PointValues2":[3, 6, 9, 12, 15]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 1,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FeralInstinct",
+				"Name":"Feral Instinct",
+				"ImageOff":"feralcombat/feralinstinct-off.jpg",
+				"ImageOn":"feralcombat/feralinstinct.jpg",
+				"Tier": 2,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Swipe ability by [@value]%.",
+				"PointValues":[10, 20, 30]
+			},
+			{
+				"Id":"SavageFury",
+				"Name":"Savage Fury",
+				"ImageOff":"feralcombat/savagefury-off.jpg",
+				"ImageOn":"feralcombat/savagefury.jpg",
+				"Tier": 2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage caused by your Claw, Rake, Mangle (Cat), Mangle (Bear) and Maul abilities by [@value]%.",
+				"PointValues":[15, 30]
+			},
+			{
+				"Id":"ThickHide",
+				"Name":"Thick Hide",
+				"ImageOff":"feralcombat/thickhide-off.jpg",
+				"ImageOn":"feralcombat/thickhide.jpg",
+				"Tier": 2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Armor contribution from items by [@value]%.",
+				"PointValues":[4, 7, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 2,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"FeralSwiftness",
+				"Name":"Feral Swiftness",
+				"ImageOff":"feralcombat/feralswiftness-off.jpg",
+				"ImageOn":"feralcombat/feralswiftness.jpg",
+				"Tier": 3,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your movement speed by [@value]% in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by [@value2]%.",
+				"PointValues":[15, 30],
+				"PointValues2":[2, 4]
+			},
+			{
+				"Id":"SurvivalInstincts",
+				"Name":"Survival Instincts",
+				"ImageOff":"feralcombat/survivalinstincts-off.jpg",
+				"ImageOn":"feralcombat/survivalinstincts.jpg",
+				"Tier": 3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>5 min cooldown</div><br/>When activated, this ability temporarily grants you 30% of your maximum health for 20 sec while in Bear Form, Cat Form, or Dire Bear Form. After the effect expires, the health is lost.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SharpenedClaws",
+				"Name":"Sharpened Claws",
+				"ImageOff":"feralcombat/sharpenedclaws-off.jpg",
+				"ImageOn":"feralcombat/sharpenedclaws.jpg",
+				"Tier": 3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your critical strike chance while in Bear, Dire Bear or Cat Form by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 3,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ShreddingAttacks",
+				"Name":"Shredding Attacks",
+				"ImageOff":"feralcombat/shreddingattacks-off.jpg",
+				"ImageOn":"feralcombat/shreddingattacks.jpg",
+				"Tier": 4,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the energy cost of your Shred ability by [@value] and the rage cost of your Lacerate ability by [@value2].",
+				"PointValues":[9, 18],
+				"PointValues2":[1, 2]
+			},
+			{
+				"Id":"PredatoryStrikes",
+				"Name":"Predatory Strikes",
+				"ImageOff":"feralcombat/predatorystrikes-off.jpg",
+				"ImageOn":"feralcombat/predatorystrikes.jpg",
+				"Tier": 4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your melee attack power in Cat, Bear an Dire Bear Forms by [@value]% of your level and [@value2]% of any attack power on your equipped weapon. In addition , your finishing moves have a [@value3]% chance per combo point to make your next nature spell with base casting time less than [@value4] sec. become an instant cast spell.",
+				"PointValues":[50, 100, 150],
+				"PointValues2":[7, 14, 20],
+				"PointValues3":[7, 13, 20],
+				"PointValues4":[10, 10, 10]
+			},
+			{
+				"Id":"PrimalFury",
+				"Name":"Primal Fury",
+				"ImageOff":"feralcombat/primalfury-off.jpg",
+				"ImageOn":"feralcombat/primalfury.jpg",
+				"Tier": 4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives you a [@value]% chance to gain an additional [@value3] Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a [@value2]% chance to add an additional combo point.",
+				"PointValues":[50, 100],
+				"PointValues2":[50, 100],
+				"PointValues3":[5, 5]
+			},
+			{
+				"Id":"PrimalPrecision",
+				"Name":"Primal Precision",
+				"ImageOff":"feralcombat/primalprecision-off.jpg",
+				"ImageOn":"feralcombat/primalprecision.jpg",
+				"Tier": 4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your expertise by [@value2], and you are refunded [@value]% of the energy cost of a finishing move if it fails to land.",
+				"PointValues":[40, 80],
+				"PointValues2":[2, 4]
+			}
+        ],
+        [
+			{
+				"Id":"BrutalImpact",
+				"Name":"Brutal Impact",
+				"ImageOff":"feralcombat/brutalimpact-off.jpg",
+				"ImageOn":"feralcombat/brutalimpact.jpg",
+				"Tier": 5,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the stun duration of your Bash and Pounce abilities by [@value] sec and decreases the cooldown of Bash by [@value2] sec.",
+				"PointValues":[0.5, 1],
+				"PointValues2":[15, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 5,
+				"DisplayColumn": 1,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"FeralCharge",
+				"Name":"Feral Charge",
+				"ImageOff":"feralcombat/feralcharge-off.jpg",
+				"ImageOn":"feralcombat/feralcharge.jpg",
+				"Tier": 5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Teaches Feral Charge (Bear) and Feral Charge (Cat).<br/><br/> Feral Charge (Bear) - Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec. This ability can be used in Bear Form and Dire Bear Form. 15 second cooldown.<br/><br/> Feral Charge (Cat) - Causes you to leap behind an enemy, dazing them for 3 sec. 30 second cooldown.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"NurturingInstinct",
+				"Name":"Nurturing Instinct",
+				"ImageOff":"feralcombat/nurturinginstinct-off.jpg",
+				"ImageOn":"feralcombat/nurturinginstinct.jpg",
+				"Tier": 5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your healing spells by up to [@value]% of your Agility, and increases healing done to you by [@value2]% while in Cat form. This effect does not stack with other similar effects.",
+				"PointValues":[10, 20],
+				"PointValues2":[10, 20]
+			}
+        ],
+        [
+			{
+				"Id":"NaturalReaction",
+				"Name":"Natural Reaction",
+				"ImageOff":"feralcombat/naturalreaction-off.jpg",
+				"ImageOn":"feralcombat/naturalreaction.jpg",
+				"Tier": 6,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your dodge while in Bear Form or Dire Bear Form by [@value]%, and you regenerate [@value2] rage everytime you dodge while in Bear Form or Dire Bear Form.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[1, 2, 3]
+			},
+			{
+				"Id":"HeartoftheWild",
+				"Name":"Heart of the Wild",
+				"ImageOff":"feralcombat/heartofthewild-off.jpg",
+				"ImageOn":"feralcombat/heartofthewild.jpg",
+				"Tier": 6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your Intellect by [@value]%. In addition, while in Bear or Dire Bear Form your Stamina is increased by [@value2]% and while in Cat Form your attack power is increased by [@value3]%.",
+				"PointValues":[4, 8, 12, 16, 20],
+				"PointValues2":[2, 4, 6, 8, 10],
+				"PointValues3":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id":"SurvivaloftheFittest",
+				"Name":"Survival of the Fittest",
+				"ImageOff":"feralcombat/survivalofthefittest-off.jpg",
+				"ImageOn":"feralcombat/survivalofthefittest.jpg",
+				"Tier": 6,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases all attributes by [@value2]% and reduces the chance you'll be critically hit by melee attacks by [@value3]% and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by [@value]%.",
+				"PointValues":[11, 22, 33],
+				"PointValues2":[2, 4, 6],
+				"PointValues3":[1, 2, 3]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 6,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 7,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"LeaderofthePack",
+				"Name":"Leader of the Pack",
+				"ImageOff":"feralcombat/leaderofthepack-off.jpg",
+				"ImageOn":"feralcombat/leaderofthepack.jpg",
+				"Tier": 7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 100 yards by 5%.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedLeaderofthePack",
+				"Name":"Improved Leader of the Pack",
+				"ImageOff":"feralcombat/improvedleaderofthepack-off.jpg",
+				"ImageOn":"feralcombat/improvedleaderofthepack.jpg",
+				"Tier": 7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Leader of the Pack ability also causes affected targets to heal themselves for [@value]% of their total health when they critically hit with a melee or ranged attack. The healing effect cannot occur more than once every [@value2] sec. In addition, you gain [@value3]% of your maximum mana when you benefit from this heal.",
+				"PointValues":[2, 4],
+				"PointValues2":[6, 6],
+				"PointValues3":[4, 8]
+			},
+			{
+				"Id":"PrimalTenacity",
+				"Name":"Primal Tenacity",
+				"ImageOff":"feralcombat/primaltenacity-off.jpg",
+				"ImageOn":"feralcombat/primaltenacity.jpg",
+				"Tier": 7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of Fear effects by [@value]%, and reduces all damage taken while Stunned by [@value2]% while in Cat Form.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[10, 20, 30]
+			}
+        ],
+        [
+			{
+				"Id":"ProtectorofthePack",
+				"Name":"Protector of the Pack",
+				"ImageOff":"feralcombat/protectorofthepack-off.jpg",
+				"ImageOn":"feralcombat/protectorofthepack.jpg",
+				"Tier": 8,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your attack power in Bear Form and Dire Bear Form by [@value]% and the damage you take is reduced by [@value2]%.",
+				"PointValues":[2, 4, 6],
+				"PointValues2":[4, 8, 12]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 8,
+				"DisplayColumn": 1,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"PredatoryInstincts",
+				"Name":"Predatory Instincts",
+				"ImageOff":"feralcombat/predatoryinstincts-off.jpg",
+				"ImageOn":"feralcombat/predatoryinstincts.jpg",
+				"Tier": 8,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While in Cat Form increases your damage from melee critical strikes by [@value]% and reduces the damage taken from area of effect attacks by [@value2]%.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[10, 20, 30]
+			},
+			{
+				"Id":"InfectedWounds",
+				"Name":"Infected Wounds",
+				"ImageOff":"feralcombat/infectedwounds-off.jpg",
+				"ImageOn":"feralcombat/infectedwounds.jpg",
+				"Tier": 8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Shred, Maul and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by [@value]% and the attack speed by [@value2]%. Lasts [@value3] sec.",
+				"PointValues":[16, 32, 48],
+				"PointValues2":[6, 12, 18],
+				"PointValues3":[12, 12, 12]
+			}
+        ],
+        [
+			{
+				"Id":"KingoftheJungle",
+				"Name":"King of the Jungle",
+				"ImageOff":"feralcombat/kingofthejungle-off.jpg",
+				"ImageOn":"feralcombat/kingofthejungle.jpg",
+				"Tier": 9,
+				"DisplayColumn": 0,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"While using your Enrage ability in Bear form or Dire Bear form, your damage is increased by [@value]%, and your Tiger's Fury ability also instantly restores [@value2] energy. In addition the mana cost of Bear Form, Cat Form and Dire Bear Form is reduced by [@value3]%.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[20, 40, 60],
+				"PointValues3":[20, 40, 60]
+			},
+			{
+				"Id":"Mangle",
+				"Name":"Mangle",
+				"ImageOff":"feralcombat/mangle-off.jpg",
+				"ImageOn":"feralcombat/mangle.jpg",
+				"Tier": 9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Mangle the target, inflicting damage and causing the target to take additional damage from bleed effects for 1 min. This ability can be used in Cat Form or Dire Bear Form.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedMangle",
+				"Name":"Improved Mangle",
+				"ImageOff":"feralcombat/improvedmangle-off.jpg",
+				"ImageOn":"feralcombat/improvedmangle.jpg",
+				"Tier": 9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the cooldown of your Mangle (Bear) ability by [@value] sec., and reduces the energy cost of your Mangle (Cat) ability by [@value2].",
+				"PointValues":[0.5, 1.0, 1.5],
+				"PointValues2":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 9,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 10,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"RendandTear",
+				"Name":"Rend and Tear",
+				"ImageOff":"feralcombat/rendandtear-off.jpg",
+				"ImageOn":"feralcombat/rendandtear.jpg",
+				"Tier":  10,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases damage done by your Maul and Shred attacks on bleeding targets by [@value]%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by [@value2]%.",
+				"PointValues":[5, 10, 15, 20, 25],
+				"PointValues2":[5, 10, 15, 20, 25]
+			},
+			{
+				"Id":"PrimalGore",
+				"Name":"Primal Gore",
+				"ImageOff":"feralcombat/primalgore-off.jpg",
+				"ImageOn":"feralcombat/primalgore.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Grants the periodic damage from your Lacerate and Rip abilities the ability to critically hit.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 10,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 0,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Berserk",
+				"Name":"Berserk",
+				"ImageOff":"feralcombat/berserk-off.jpg",
+				"ImageOn":"feralcombat/berserk.jpg",
+				"Tier": 11,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right'>3 min cooldown</div><br/>When activated, this ability causes your Mangle (Bear) ability to hit up to 3 targets and have no cooldown, and reduces the energy cost of all your Cat Form abilities by 50%. Lasts 15 sec. You cannot use Tiger's Fury while Berserk is active.<br/><br/>Clears the effect of Fear and makes you immune to Fear for the duration.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 3,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

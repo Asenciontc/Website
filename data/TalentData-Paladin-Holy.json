@@ -1,0 +1,541 @@
+{
+	"BackgroundImage":"holy/background.jpg",
+    "TreeIcon":"Hero9.png",
+    "ClassName":"Paladin",
+	"TalentsTiers":
+	[
+		[
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SpiritualFocus",
+				"Name":"Spiritual Focus",
+				"ImageOff":"holy/spiritualfocus-off.jpg",
+				"ImageOn":"holy/spiritualfocus.jpg",
+				"Tier":  1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by [@value]%.",
+				"PointValues":[14, 28, 42, 56, 70]
+			},
+			{
+				"Id":"SealsofthePure",
+				"Name":"Seals of the Pure",
+				"ImageOff":"holy/sealsofthepure-off.jpg",
+				"ImageOn":"holy/sealsofthepure.jpg",
+				"Tier":  1 ,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by [@value]%.",
+				"PointValues":[6, 12, 18, 24, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"HealingLight",
+				"Name":"Healing Light",
+				"ImageOff":"holy/healinglight-off.jpg",
+				"ImageOn":"holy/healinglight.jpg",
+				"Tier":  2,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by [@value]%.",
+				"PointValues":[4, 8, 12]
+			},
+			{
+				"Id":"DivineIntellect",
+				"Name":"Divine Intellect",
+				"ImageOff":"holy/divineintellect-off.jpg",
+				"ImageOn":"holy/divineintellect.jpg",
+				"Tier":  2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your total Intellect by [@value]%.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+			{
+				"Id":"UnyieldingFaith",
+				"Name":"Unyielding Faith",
+				"ImageOff":"holy/unyieldingfaith-off.jpg",
+				"ImageOn":"holy/unyieldingfaith.jpg",
+				"Tier":  2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of all Fear and Disorient effects by [@value]%.",
+				"PointValues":[15, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"AuraMastery",
+				"Name":"Aura Mastery",
+				"ImageOff":"holy/auramastery-off.jpg",
+				"ImageOn":"holy/auramastery.jpg",
+				"Tier":  3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Causes your Concentration Aura to make all affected targets immune to Silence and Interrupt effects and improve the effect of all other auras by 100%. Lasts 6 sec.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"Illumination",
+				"Name":"Illumination",
+				"ImageOff":"holy/illumination-off.jpg",
+				"ImageOn":"holy/illumination.jpg",
+				"Tier":  3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a [@value]% chance to gain Mana equal to [@value2]% of the base cost of your spell.",
+				"PointValues":[20, 40, 60, 80, 100],
+				"PointValues2":[30, 30, 30, 30, 30]
+			},
+			{
+				"Id":"ImprovedLayonHands",
+				"Name":"Improved Lay on Hands",
+				"ImageOff":"holy/improvedlayonhands-off.jpg",
+				"ImageOn":"holy/improvedlayonhands.jpg",
+				"Tier":  3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives the target of your Lay on Hands spell [@value]% reduced physical damage taken for [@value2] sec. In addition, the cooldown for your Lay on Hands spell is reduced by [@value3] min.",
+				"PointValues":[10, 20],
+				"PointValues2":[15, 15],
+				"PointValues3":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"ImprovedConcentrationAura",
+				"Name":"Improved Concentration Aura",
+				"ImageOff":"holy/improvedconcentrationaura-off.jpg",
+				"ImageOn":"holy/improvedconcentrationaura.jpg",
+				"Tier":  4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the effect of your Concentration Aura by an additional [@value]% and while Concentration Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by [@value2]%.  The duration reduction does not stack with any other effects.",
+				"PointValues":[5, 10, 15],
+				"PointValues2":[10, 20, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"ImprovedBlessingofWisdom",
+				"Name":"Improved Blessing of Wisdom",
+				"ImageOff":"holy/improvedblessingofwisdom-off.jpg",
+				"ImageOn":"holy/improvedblessingofwisdom.jpg",
+				"Tier":  4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the effect of your Blessing of Wisdom spell by [@value]%.",
+				"PointValues":[10, 20]
+			},
+			{
+				"Id":"BlessedHands",
+				"Name":"Blessed Hands",
+				"ImageOff":"holy/blessedhands-off.jpg",
+				"ImageOn":"holy/blessedhands.jpg",
+				"Tier":  4,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of hand of Freedom, Hand of Sacrifice and hand of Salvation by [@value]%, increases the effectiveness of Hand of Salvation by [@value2]% and the effectiveness of Hand of Sacrifice an additional [@value3]%.",
+				"PointValues":[15, 30],
+				"PointValues2":[50, 100],
+				"PointValues3":[5, 10]
+			}
+        ],
+        [
+			{
+				"Id":"PureofHeart",
+				"Name":"Pure of Heart",
+				"ImageOff":"holy/pureofheart-off.jpg",
+				"ImageOn":"holy/pureofheart.jpg",
+				"Tier":  5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the duration of Curse, Disease and Poison effects by [@value]%.",
+				"PointValues":[25, 50]
+			},
+			{
+				"Id":"DivineFavor",
+				"Name":"Divine Favor",
+				"ImageOff":"holy/divinefavor-off.jpg",
+				"ImageOn":"holy/divinefavor.jpg",
+				"Tier":  5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"2% of base mana<br/>Instant Cast<div style='float:right;'>2 min cooldown</div><br/>When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"SanctifiedLight",
+				"Name":"Sanctified Light",
+				"ImageOff":"holy/sanctifiedlight-off.jpg",
+				"ImageOn":"holy/sanctifiedlight.jpg",
+				"Tier":  5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical effect chance of your Holy Light and Holy Shock spells by [@value]%.",
+				"PointValues":[2, 4, 6]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"PurifyingPower",
+				"Name":"Purifying Power",
+				"ImageOff":"holy/purifyingpower-off.jpg",
+				"ImageOn":"holy/purifyingpower.jpg",
+				"Tier":  6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Reduces the mana cost of your Cleanse, Purify and Consecration spells by [@value]% and increases the critical strike chance of your Exorcism and Holy Wrath spells by [@value2]%.",
+				"PointValues":[5, 10],
+				"PointValues2":[17, 33]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"HolyPower",
+				"Name":"Holy Power",
+				"ImageOff":"holy/holypower-off.jpg",
+				"ImageOn":"holy/holypower.jpg",
+				"Tier":  6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the critical damage of your Holy spells by [@value]%.",
+				"PointValues":[20, 40, 60, 80, 100]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"LightsGrace",
+				"Name":"Lights Grace",
+				"ImageOff":"holy/lightsgrace-off.jpg",
+				"ImageOn":"holy/lightsgrace.jpg",
+				"Tier":  7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Gives your Holy Light spell a [@value]% chance to reduce the cast time of your next Holy Light spell by [@value2] sec. This effect lasts [@value3] sec. Also passively increases the duration of Divine Shield and Divine Protection by [@value4] seconds.",
+				"PointValues":[33, 66, 100],
+				"PointValues2":[0.5, 0.5, 0.5],
+				"PointValues3":[15, 15, 15],
+				"PointValues4":[2, 4, 6]
+			},
+			{
+				"Id":"HolyShock",
+				"Name":"Holy Shock",
+				"ImageOff":"holy/holyshock-off.jpg",
+				"ImageOn":"holy/holyshock.jpg",
+				"Tier":  7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"14% of base mana<div style='float:right;'>Enemy: 20 yd range</div><br/><div style='float:right;'>Friendly: 40 yd range</div><br/>Instant Cast<div style='float:right;'>6 sec cooldown</div><br/>Blasts the target with Holy energy, causing 1296 to 1402 Holy damage to an enemy, or 2401 to 2599 healing to an ally.<br/><br/>Talent Has Trainable Ranks",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BlessedLife",
+				"Name":"Blessed Life",
+				"ImageOff":"holy/blessedlife-off.jpg",
+				"ImageOn":"holy/blessedlife.jpg",
+				"Tier":  7,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"All attacks against you have a [@value]% chance to cause half damage.",
+				"PointValues":[4, 7, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"SacredCleansing",
+				"Name":"Sacred Cleansing",
+				"ImageOff":"holy/sacredcleansing-off.jpg",
+				"ImageOn":"holy/sacredcleansing.jpg",
+				"Tier":  8,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Cleanse spell has a [@value]% chance to increase the target's resistance to Disease, Magic and Poison by [@value2]% for [@value3] sec.",
+				"PointValues":[10, 20, 30],
+				"PointValues2":[30, 30, 30],
+				"PointValues3":[10, 10, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"HolyGuidance",
+				"Name":"Holy Guidance",
+				"ImageOff":"holy/holyguidance-off.jpg",
+				"ImageOn":"holy/holyguidance.jpg",
+				"Tier":  8,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases your healing spell power by [@value]% of your total Intellect.",
+				"PointValues":[2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id":"DivineIllumination",
+				"Name":"Divine Illumination",
+				"ImageOff":"holy/divineillumination-off.jpg",
+				"ImageOn":"holy/divineillumination.jpg",
+				"Tier":  9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Instant<div style='float:right;'>3 min cooldown</div><br/>Reduces the mana cost of all spells by 50% for 15 sec.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"JudgementsofthePure",
+				"Name":"Judgements of the Pure",
+				"ImageOff":"holy/judgementsofthepure-off.jpg",
+				"ImageOn":"holy/judgementsofthepure.jpg",
+				"Tier":  9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the Damage done by your Seal spells by [@value]% and your Judgement spells by [@value2]%. Also your Judgement spells increase your haste by [@value3]% for [@value4] min.",
+				"PointValues":[10, 20, 30, 40, 50],
+				"PointValues2":[5, 10, 15, 20, 25],
+				"PointValues3":[1, 2, 3, 4, 5],
+				"PointValues4":[1, 1, 1, 1, 1]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"InfusionofLight",
+				"Name":"Infusion of Light",
+				"ImageOff":"holy/infusionoflight-off.jpg",
+				"ImageOn":"holy/infusionoflight.jpg",
+				"Tier":  10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Your Holy Shock critical hits reduce the cast time of your next Flash of Light spell by [@value] sec or increase the critical strike chance of your next Holy Light by [@value2]%. In addition causes your Flash of Light to heal targets with Sacred Shield for an additional [@value3]% over [@value4] sec.",
+				"PointValues":[0.75, 1.5],
+				"PointValues2":[10, 20],
+				"PointValues3":[50, 100],
+				"PointValues4":[12, 12]
+			},
+			{
+				"Id":"EnlightenedJudgements",
+				"Name":"Enlightened Judgements",
+				"ImageOff":"holy/enlightenedjudgements-off.jpg",
+				"ImageOn":"holy/enlightenedjudgements.jpg",
+				"Tier":  10,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"Increases the range of your Judgement of Light and Judgement of Wisdom spells by [@value] yards and increases your chance to hit with all spells and attacks by [@value2]%.",
+				"PointValues":[15, 30],
+				"PointValues2":[2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id":"BeaconofLight",
+				"Name":"Beacon of Light",
+				"ImageOff":"holy/beaconoflight-off.jpg",
+				"ImageOn":"holy/beaconoflight.jpg",
+				"Tier":  11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		"TalentPoints":1,
+				"Description":"26% of base mana<div style='float:right;'>40 yd range</div><br/>Instant Cast<br/>The target becomes a Beacon of Light to all party and raid members within a 60 yard radius. Any heals you cast on party and raid members will also heal the Beacon for 25% of the amount healed. Only one target can be Beacon of Light at a time. Lasts 1 min.",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}

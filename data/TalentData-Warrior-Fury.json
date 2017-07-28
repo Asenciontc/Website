@@ -1,0 +1,527 @@
+{
+	"BackgroundImage": "fury/background.jpg",
+    "TreeIcon":"Hero25.png",
+    "ClassName":"Warrior",
+	"TalentsTiers": 
+    [
+		[
+            {
+				"Id": "ArmoredtotheTeeth",
+				"Name": "Armored to the Teeth",
+				"ImageOff": "fury/armoredtotheteeth-off.jpg",
+				"ImageOn": "fury/armoredtotheteeth.jpg",
+				"Tier": 1,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases your attack power by [@value] for every 108 armor value you have.",
+				"PointValues": [1, 2, 3]
+			},
+			{
+				"Id": "BoomingVoice",
+				"Name": "Booming Voice",
+				"ImageOff": "fury/boomingvoice-off.jpg",
+				"ImageOn": "fury/boomingvoice.jpg",
+				"Tier": 1,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by [@value]%.",
+				"PointValues": [25, 50]
+			},
+			{
+				"Id": "Cruelty",
+				"Name": "Cruelty",
+				"ImageOff": "fury/cruelty-off.jpg",
+				"ImageOn": "fury/cruelty.jpg",
+				"Tier": 1,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases your chance to get a critical strike with melee weapons by [@value]%.",
+				"PointValues": [1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ImprovedDemoralizingShout",
+				"Name": "Improved Demoralizing Shout",
+				"ImageOff": "fury/improveddemoralizingshout-off.jpg",
+				"ImageOn": "fury/improveddemoralizingshout.jpg",
+				"Tier": 2,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the melee attack power reduction of your Demoralizing Shout by [@value]%.",
+				"PointValues": [8, 16, 24, 32, 40]
+			},
+			{
+				"Id": "UnbridledWrath",
+				"Name": "Unbridled Wrath",
+				"ImageOff": "fury/unbridledwrath-off.jpg",
+				"ImageOn": "fury/unbridledwrath.jpg",
+				"Tier": 2,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.[@value]",
+				"PointValues": ["", " Effect occurs more often than Unbridled Wrath (Rank 1).", " Effect occurs more often than Unbridled Wrath (Rank 2).", " Effect occurs more often than Unbridled Wrath (Rank 3).", " Effect occurs more often than Unbridled Wrath (Rank 4)."]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "ImprovedCleave",
+				"Name": "Improved Cleave",
+				"ImageOff": "fury/improvedcleave-off.jpg",
+				"ImageOn": "fury/improvedcleave.jpg",
+				"Tier": 3,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the bonus damage done by your Cleave ability by [@value]%.",
+				"PointValues": [40, 80, 120]
+			},
+			{
+				"Id": "PiercingHowl",
+				"Name": "Piercing Howl",
+				"ImageOff": "fury/piercinghowl-off.jpg",
+				"ImageOn": "fury/piercinghowl.jpg",
+				"Tier": 3,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "10 Rage<br>Instant<br>Causes all enemies within 10 yards to be Dazed, reducing movement speed by 50% for 6 sec. This ability is usable while shapeshifted.",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "BloodCraze",
+				"Name": "Blood Craze",
+				"ImageOff": "fury/bloodcraze-off.jpg",
+				"ImageOn": "fury/bloodcraze.jpg",
+				"Tier": 3,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Regenerates [@value]% of your total Health over 6 sec after being the victim of a critical strike.",
+				"PointValues": [2, 4, 6]
+			},
+			{
+				"Id": "CommandingPresence",
+				"Name": "Commanding Presence",
+				"ImageOff": "fury/commandingpresence-off.jpg",
+				"ImageOn": "fury/commandingpresence.jpg",
+				"Tier": 3,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by [@value]%.",
+				"PointValues": [5, 10, 15, 20, 25]
+			}
+        ],
+        [
+			{
+				"Id": "DualWieldSpecialization",
+				"Name": "Dual Wield Specialization",
+				"ImageOff": "fury/dualwieldspecialization-off.jpg",
+				"ImageOn": "fury/dualwieldspecialization.jpg",
+				"Tier": 4,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your offhand weapon by [@value]%.",
+				"PointValues": [5, 10, 15, 20, 25]
+			},
+			{
+				"Id": "ImprovedExecute",
+				"Name": "Improved Execute",
+				"ImageOff": "fury/improvedexecute-off.jpg",
+				"ImageOn": "fury/improvedexecute.jpg",
+				"Tier": 4,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the rage cost of your Execute ability by [@value].",
+				"PointValues": [2, 5]
+			},
+			{
+				"Id": "Enrage",
+				"Name": "Enrage",
+				"ImageOff": "fury/enrage-off.jpg",
+				"ImageOn": "fury/enrage.jpg",
+				"Tier": 4,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Gives you a 30% chance to receive a [@value]% damage bonus for 12 sec after being the victim of a damaging attack. This effect does not stack with Wrecking Crew.",
+				"PointValues": [1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "Precision",
+				"Name": "Precision",
+				"ImageOff": "fury/precision-off.jpg",
+				"ImageOn": "fury/precision.jpg",
+				"Tier": 5,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases your chance to hit with melee weapons by [@value]%.",
+				"PointValues": [1, 2, 3]
+			},
+			{
+				"Id": "DeathWish",
+				"Name": "Death Wish",
+				"ImageOff": "fury/deathwish-off.jpg",
+				"ImageOn": "fury/deathwish.jpg",
+				"Tier": 5,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "10 Rage<br/>Instant<div style='float:right'>3 min cooldown</div><br/>When activated you become enraged, increasing your physical damage by 20% but increasing all damage taken by 5%. Lasts 30 sec. This ability is usable while shapeshifted.",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "ImprovedIntercept",
+				"Name": "Improved Intercept",
+				"ImageOff": "fury/improvedintercept-off.jpg",
+				"ImageOn": "fury/improvedintercept.jpg",
+				"Tier": 5,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the cooldown of your Intercept ability by [@value] sec.",
+				"PointValues": [5, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "ImprovedBerserkerRage",
+				"Name": "Improved Berserker Rage",
+				"ImageOff": "fury/improvedberserkerrage-off.jpg",
+				"ImageOn": "fury/improvedberserkerrage.jpg",
+				"Tier": 6,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "The Berserker Rage ability will generate [@value] rage when used. Increases the duration of Berserker Rage by [@value2] sec.",
+				"PointValues": [10, 20],
+				"PointValues2": [2, 4]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "Flurry",
+				"Name": "Flurry",
+				"ImageOff": "fury/flurry-off.jpg",
+				"ImageOn": "fury/flurry.jpg",
+				"Tier": 6,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases your armor penetration by [@value]% for your next 3 swings after dealing a melee critical strike.",
+				"PointValues": [1, 2, 3, 4, 5]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+			{
+				"Id": "IntensifyRage",
+				"Name": "Intensify Rage",
+				"ImageOff": "fury/intensifyrage-off.jpg",
+				"ImageOn": "fury/intensifyrage.jpg",
+				"Tier": 7,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Reduces the cooldown of your Bloodrage, Berserker Rage, Recklessness and Death Wish abilities by [@value]%.",
+				"PointValues": [11, 22, 33]
+			},
+			{
+				"Id": "Bloodthirst",
+				"Name": "Bloodthirst",
+				"ImageOff": "fury/bloodthirst-off.jpg",
+				"ImageOn": "fury/bloodthirst.jpg",
+				"Tier": 7,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "20 Rage<div style='float:right'>Melee Range</div><br/>Instant<div style='float:right'>4 sec cooldown</div><br/>Instantly attack the target causing 260 damage. In addition, the next 3 successful melee attacks will restore 1% of max health. This effect lasts 8 sec. Damage is based on your attack power.",
+				"PointValues": [0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ImprovedWhirlwind",
+				"Name": "Improved Whirlwind",
+				"ImageOff": "fury/improvedwhirlwind-off.jpg",
+				"ImageOn": "fury/improvedwhirlwind.jpg",
+				"Tier": 7,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage of your Whirlwind ability by [@value]%.",
+				"PointValues": [10, 20]
+			}
+        ],
+        [
+			{
+				"Id": "FuriousAttacks",
+				"Name": "Furious Attacks",
+				"ImageOff": "fury/furiousattacks-off.jpg",
+				"ImageOn": "fury/furiousattacks.jpg",
+				"Tier": 8,
+				"DisplayColumn": 1, 
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Your normal melee attacks have a chance to reduce all healing done to the target by [@value]% for 10 sec. This can stack up to 2 times.[@value2]",
+				"PointValues": [25, 25],
+				"PointValues2": ["", " This occurs more often than Furious Attacks (Rank 1)."]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "ImprovedBerserkerStance",
+				"Name": "Improved Berserker Stance",
+				"ImageOff": "fury/improvedberserkerstance-off.jpg",
+				"ImageOn": "fury/improvedberserkerstance.jpg",
+				"Tier": 8,
+				"DisplayColumn": 4,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases attack power by [@value]% and reduces threat caused by [@value2]% while in Berserker Stance.",
+				"PointValues": [3, 6, 9, 12, 15],
+				"PointValues2": [2, 4, 6, 8, 10]
+			}
+        ],
+        [
+			{
+				"Id": "HeroicFury",
+				"Name": "Heroic Fury",
+				"ImageOff": "fury/heroicfury-off.jpg",
+				"ImageOn": "fury/heroicfury.jpg",
+				"Tier": 9,
+				"DisplayColumn": 1,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Instant<div style='float:right'>45 sec cooldown</div><br/>Removes any Immobilization effects and refreshes the cooldown of your Intercept ability.",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "Rampage",
+				"Name": "Rampage",
+				"ImageOff": "fury/rampage-off.jpg",
+				"ImageOn": "fury/rampage.jpg",
+				"Tier": 9,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases ranged and melee criticalhit chance of all party and raid members within 100 yds by 5%.",
+				"PointValues": [0.0]
+			},
+			{
+				"Id": "Bloodsurge",
+				"Name": "Bloodsurge",
+				"ImageOff": "fury/bloodsurge-off.jpg",
+				"ImageOn": "fury/bloodsurge.jpg",
+				"Tier": 9,
+				"DisplayColumn": 3,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Your Heroic Strike, Bloodthirst and Whirlwind hits have a [@value]% chance of making your next Slam instant for 5 sec.",
+				"PointValues": [7, 14, 30]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "UnendingFury",
+				"Name": "Unending Fury",
+				"ImageOff": "fury/unendingfury-off.jpg",
+				"ImageOn": "fury/unendingfury.jpg",
+				"Tier": 10,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by [@value]%.",
+				"PointValues": [2, 4, 6, 8, 10]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+        ],
+        [
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+			{
+				"Id": "TitansGrip",
+				"Name": "Titans Grip",
+				"ImageOff": "fury/titansgrip-off.jpg",
+				"ImageOn": "fury/titansgrip.jpg",
+				"Tier": 11,
+				"DisplayColumn": 2,
+                		"AbilityPoints":0,
+                		„TalentPoints“:1,
+				"Description": "Allows you to equip two-handed axes, maces and swords in one hand. While you have aTwo-Handed weapon equipped in one hand. All damage done is reduced by 15%.",
+				"PointValues": [0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			},
+            {
+				"Id":"",
+				"Name":"",
+				"ImageOff":"",
+				"ImageOn":"",
+				"Tier": 11,
+				"DisplayColumn": 2,
+				"Description":"",
+				"PointValues":[0.0]
+			}
+		]
+	]
+}
