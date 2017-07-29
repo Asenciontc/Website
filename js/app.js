@@ -7,7 +7,7 @@ var classes = { Druid:0, Hunter:1, Mage:2, Paladin:3, Priest:4, Rogue:5, Shaman:
 var classLookup = ["Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"];
 var NUMBER_OF_SPECS_PER_CLASS = 3;
 
-var TEST_MODE = true;
+var TEST_MODE = false;
 
 talentApp.controller('talentController', ['$scope', '$http', '$window', function($scope, $http, $window) { 
     $scope.allTalentData = [];

@@ -11,3 +11,9 @@
 
 Temp
 6% of base mana<div style='float:right;'>100 yd range</div><br/>Instant Cast<div style='float:right;'>1 min cooldown</div><br/>
+
+
+Dev items
+-Remove old unit testing code.
+-Fix unit testing
+-Figure out how to launch chrome browser on debug.
