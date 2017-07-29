@@ -23,7 +23,7 @@
 				"Tier": 1,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the damage done by your Shadow Bolt spell by [@value]% and your Shadow Bolt has a [@value2]% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec.",
 				"PointValues": [2, 4, 6, 8, 10],
 				"PointValues2": [20, 40, 60, 80, 100]
@@ -36,7 +36,7 @@
 				"Tier": 1,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Reduces the casting time of your Shadow Bolt, Chaos Bolt and Immolate spells by [@value] sec and your Soul Fire spell by [@value2] sec.",
 				"PointValues": [0.1, 0.2, 0.3, 0.4, 0.5],
 				"PointValues2": [0.4, 0.8, 1.2, 1.6, 2.0]
@@ -61,7 +61,7 @@
 				"Tier": 2,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the periodic damage done by your Immolate by [@value]% and your conflagrate has a [@value]% chance to daze the target for 5 sec.",
 				"PointValues": [3, 6],
 				"PointValues2": [50, 100]
@@ -74,7 +74,7 @@
 				"Tier": 2,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Reduce all damage taken by [@value]%",
 				"PointValues": [1, 2, 3]
 			},
@@ -86,7 +86,7 @@
 				"Tier": 2,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Reduces the Mana cost of your Destruction spells by [@value]%.",
 				"PointValues": [4, 8, 12]
 			},
@@ -110,7 +110,7 @@
 				"Tier": 3,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Reduces the cooldown of your Succubus' Lash of Pain spell by [@value] sec, and reduces the casting time of your Imp's Firebolt spell by [@value2] sec",
 				"PointValues": [3, 6],
 				"PointValues2": [0.25, 0.50]
@@ -123,7 +123,7 @@
 				"Tier": 3,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "105 mana<div style='float:right'>20 yd range</div><br/>Instant Cast<div style='float:right'>15 sec cooldown</div><br>Reagents: Soul Shard<br>Instantly blasts the target for 91 to 104 Shadow damage. If the target dies within 5 secs of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.<br><br>Talent Has Trainable Ranks",
 				"PointValues": [0.0]
 			},
@@ -135,7 +135,7 @@
 				"Tier": 3,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by [@value]%.",
 				"PointValues": [20, 40, 60, 80, 100]
 			},
@@ -159,7 +159,7 @@
 				"Tier": 4,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Reduces the pushback suffered from damaging attacks while casting or channeling any Destruction spell by [@value]%.",
 				"PointValues": [35, 70]
 			},
@@ -171,7 +171,7 @@
 				"Tier": 4,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the range of your Destruction spells by [@value]% and reduces threat caused by Destruction spells by [@value2]%.",
 				"PointValues": [10, 20],
 				"PointValues2": [5, 10]
@@ -194,7 +194,7 @@
 				"Tier": 4,
 				"DisplayColumn": 4,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the critical strike chance of your Searing Pain spell by [@value]%.",
 				"PointValues": [4, 7, 10]
 			}
@@ -208,7 +208,7 @@
 				"Tier": 5,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases your critical strike chance with spells by an additional [@value]% and gives you a [@value2]% chance when hit by a physical attack to reduce the cast time of your next Shadow Bolt or Incinerate spell by 100%. This effect lasts 8 sec and will not occur more than once every 8 seconds.",
 				"PointValues": [1, 2, 3],
 				"PointValues2": [8, 16, 25]
@@ -221,7 +221,7 @@
 				"Tier": 5,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the initial damage of your Immolate spell by [@value]%.",
 				"PointValues": [10, 20, 30]
 			},
@@ -233,7 +233,7 @@
 				"Tier": 5,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the critical strike chance of your Destruction spells by 5%.",
 				"PointValues": [0.0]
 			},
@@ -257,7 +257,7 @@
 				"Tier": 6,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "After being hit with a spell, you have a [@value]% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec.",
 				"PointValues": [10, 20, 30]
 			},
@@ -279,7 +279,7 @@
 				"Tier": 6,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the damage done by your Fire spells by [@value]% and reduces the cast time of your Incinerate spell by [@value2] sec.",
 				"PointValues": [1, 2, 3, 4, 5],
 				"PointValues2": [0.05, 0.10, 0.15, 0.20, 0.25]
@@ -314,7 +314,7 @@
 				"Tier": 7,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "13% of base mana<div style='float:right'>30 yd range</div><br/>Instant Cast<div style='float:right'>10 sec cooldown</div><br/>Consumes an Immolate or Shadowflame effect on the target to instantyly deal damage equal to 60% of your Immolate or Shadowflame andcauses an additional 40% damage over 6 sec.<br><br>Talent Has Trainable Ranks",
 				"PointValues":[0.0]
 			},
@@ -326,7 +326,7 @@
 				"Tier": 7,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a [@value]% chance to return health equal to 20% of the damage caused.",
 				"PointValues": [10, 20, 30]
 			},
@@ -338,7 +338,7 @@
 				"Tier": 7,
 				"DisplayColumn": 4,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "When you critically strike with searing Pain or Conflagrate, your Fire and Shadow spell damage is increased by [@value]% for 10 sec.",
 				"PointValues": [2, 4, 6]
 			}
@@ -362,7 +362,7 @@
 				"Tier": 8,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Your Shadow Bolt, Shadowburn, Chaos Bolt, Shadowfury and Incinerate spells gain an additional [@value]% of your bonus spell damage effects.",
 				"PointValues": [4, 8, 12, 16, 20]
 			},
@@ -374,7 +374,7 @@
 				"Tier": 8,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Your Soul Leech effect also restores mana to you and your summoned demon equal to [@value]% of maximum mana and has a [@value2]% chance to grant up to 10 party or raid members mana equal to 1% of maximum mana per 5 sec. Lasts 15 sec.", 
 				"PointValues": [1, 2],
 				"PointValues2": [50, 100]
@@ -399,7 +399,7 @@
 				"Tier": 9,
 				"DisplayColumn": 1,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "When you cast Conflagrate, the cast time of your next three Destruction spells is reduced by [@value]%. Lasts 15 sec.",
 				"PointValues": [10, 20, 30]
 			},
@@ -421,7 +421,7 @@
 				"Tier": 9,
 				"DisplayColumn": 3,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the damage done by your Imp by [@value]%, and all critical hits done by your Imp have a [@value2]% chance to increase your spell critical hit chance for your next Warlock spell by 100%. This effect lasts 8 sec.",
 				"PointValues": [10, 20, 30],
 				"PointValues2": [33, 66, 100]
@@ -456,7 +456,7 @@
 				"Tier": 10,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "Increases the damage done by your Incenerate and Chaos Bolt spells to targets affected by your Immolate by [@value]% and the critical strike chance of your Conflagrate spell is increased by [@value2]%.",
 				"PointValues": [2, 4, 6, 8, 10],
 				"PointValues2": [5, 10, 15, 20, 25]
@@ -501,7 +501,7 @@
 				"Tier": 11,
 				"DisplayColumn": 2,
                 		"AbilityPoints":0,
-                		„TalentPoints“:1,
+                		"TalentPoints":1,
 				"Description": "6% of base mana<div style='float:right'>30 yd range</div><br/>2.5 sec Cast<div style='float:right'>12 sec cooldown</div><br/>Sends a bolt of chaotic fire at the enemy, dealing 685 to 861 Chaos damage. Chaos Bolt cannot be resisted, and pierces through all absorption effects.<br><br>Talent Has Trainable Ranks",
 				"PointValues": [0.0]
 			},
